@@ -1,0 +1,451 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/jing.css">
+		<link rel="stylesheet" href="css/personal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<style>
+			.keynoteLogoDown {
+				display: block;
+				position: fixed;
+				width: 80px;
+				height: 100px;
+				z-index: 31;
+				right: 5px;
+				bottom: 65px;
+				-webkit-user-select: none;
+			}
+			.keynoteLogoUp {
+				display: block;
+				position: fixed;
+				width: 80px;
+				height: 100px;
+				z-index: 31;
+				left: 5px;
+				top: 5px;
+				-webkit-user-select: none;
+			}
+	
+			.keynoteLogo img {
+				width: 80%;
+			}
+			.notegraph {
+				color:purple;
+				font-size: 0.80em;
+			}
+		</style>
+
+
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+	
+				<section id="portrait">
+					<h1><small>HISTORIA DE LA CARTOGRAFÍA</small></h1>
+					<h2><small>La Oikumene</small></h2>
+					<h3>
+						La Cartografía en la Edad Media
+					</h3>
+					<p>
+						<small><strong>EDADMEDIA-CLASE</strong> - 30 de septiembre de 2019</small>
+						<br/>
+						Templating -> https://www.chenhuijing.com/slides/56-imagecon-2019/#/13
+						<br/>
+						https://www.chenhuijing.com/about/
+					</p>
+				</section>
+				<section id="slide-0">
+					<section id="slide-0.0">
+						<h2>Alineación de tres imágenes</h2>
+						<div class="l-multiple" style="align-items:end">
+						<figure>
+						<img class="plain" style="max-width:15vw" data-src="images/image01.jpg" alt="libjpeg">
+						<figcaption>libjpeg</figcaption>
+						</figure>
+						<figure>
+						<img class="plain" style="max-width:15vw" data-src="images/image01.jpg" alt="mozJPEG">
+						<figcaption>mozJPEG</figcaption>
+						</figure>
+						<figure>
+						<!--<img class="plain" style="min-height:20vh" data-src="images/image01.jpg" alt="Guetzli">-->
+						<img class="plain" style="max-width:15vw" data-src="images/image01.jpg" alt="Guetzli">
+						<figcaption>Guetzli</figcaption>
+						</figure>
+						</div>
+					</section>
+					<section id="slide-0.1">
+						<h2>Alineación de tres imágenes. destacando el centro</h2>
+						<div class="l-multiple" style="align-items:end">
+						<figure>
+						<img class="plain" style="min-height:20vh" data-src="images/image01.jpg" alt="libjpeg">
+						<figcaption>libjpeg</figcaption>
+						</figure>
+						<figure>
+						<img class="plain" style="max-width:25vw" data-src="images/image01.jpg" alt="mozJPEG">
+						<figcaption>mozJPEG</figcaption>
+						</figure>
+						<figure>
+						<!--<img class="plain" style="min-height:20vh" data-src="images/image01.jpg" alt="Guetzli">-->
+						<img class="plain" style="min-height:20vh" data-src="images/image01.jpg" alt="Guetzli">
+						<figcaption>Guetzli</figcaption>
+						</figure>
+						</div>
+					</section>
+					<section id="slide-0.2">
+						<h2>Comparación imágenes</h2>
+						<div class="l-double" style="justify-items:center">
+							<img class="plain" style="max-height:50vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:50vh" data-src="images/image02.jpg" alt="No blur applied">
+						</div>
+						<p><small>Reference: <a href="https://compress-or-die.com/Understanding-JPG/">Finally understanding JPG</a></small></p>
+						<aside class="notes">
+						<p>You could put in more manual effort and explicitly smooth out the sharp transitions in the colour channels, which will improve savings during the down-sampling phase.</p>
+						<p>Or you could also do what I did and apply a simple Gaussian blur on the parts of your image which aren't pertinent. A lazier way to benefit from some data savings as well.</p>
+						<p>You don't have to apply all of these tips to all your images because it really does depend on the context in which your images are appearing in. But it's good to know what options are available to you.</p>
+						</aside>
+					</section>
+					<section id="slide-0.3">
+						<h2>Comparación imágenes matriz 4x4</h2>
+						<div class="l-double" style="justify-items:center">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="No blur applied">
+						</div>
+						<div class="l-double" style="justify-items:center">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="No blur applied">
+						</div>
+						<p><small>Reference: <a href="https://compress-or-die.com/Understanding-JPG/">Finally understanding JPG</a></small></p>
+						<aside class="notes">
+						<p>You could put in more manual effort and explicitly smooth out the sharp transitions in the colour channels, which will improve savings during the down-sampling phase.</p>
+						<p>Or you could also do what I did and apply a simple Gaussian blur on the parts of your image which aren't pertinent. A lazier way to benefit from some data savings as well.</p>
+						<p>You don't have to apply all of these tips to all your images because it really does depend on the context in which your images are appearing in. But it's good to know what options are available to you.</p>
+						</aside>
+					</section>
+					<section id="slide-0.4">
+						<h2>Comparación imágenes matriz 3x2</h2>
+						<div class="l-multiple" style="justify-items:center">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="No blur applied">
+						</div>
+						<div class="l-multiple" style="justify-items:center">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="Non-key areas of image blurred out">
+							<img class="plain" style="max-height:20vh" data-src="images/image02.jpg" alt="No blur applied">
+						</div>
+						<p><small>Reference: <a href="https://compress-or-die.com/Understanding-JPG/">Finally understanding JPG</a></small></p>
+						<aside class="notes">
+						<p>You could put in more manual effort and explicitly smooth out the sharp transitions in the colour channels, which will improve savings during the down-sampling phase.</p>
+						<p>Or you could also do what I did and apply a simple Gaussian blur on the parts of your image which aren't pertinent. A lazier way to benefit from some data savings as well.</p>
+						<p>You don't have to apply all of these tips to all your images because it really does depend on the context in which your images are appearing in. But it's good to know what options are available to you.</p>
+						</aside>
+					</section>
+					<section id="slide-0.5">
+					<h2>Secuencia de 5 imágenes con doble caption</h2>
+					<div class="l-multiple">
+					<figure>
+					<img class="plain" data-src="images/tile.png" alt="1-bit image">
+					<figcaption>1-bit PNG<br><small>(2 colours)</small></figcaption>
+					</figure>
+					<figure>
+					<img class="plain" data-src="images/tile.png" alt="2-bit image">
+					<figcaption>2-bit PNG<br><small>(4 colours)</small></figcaption>
+					</figure>
+					<figure>
+					<img class="plain" data-src="images/tile.png" alt="4-bit image">
+					<figcaption>4-bit PNG<br><small>(16 colours)</small></figcaption>
+					</figure>
+					<figure>
+					<img class="plain" data-src="images/tile.png" alt="8-bit image">
+					<figcaption>8-bit PNG<br><small>(256 colours)</small></figcaption>
+					</figure>
+					<figure>
+					<img class="plain" data-src="images/tile.png" alt="24-bit image">
+					<figcaption>24-bit PNG<br><small>(16,777,216 colours)</small></figcaption>
+					</figure>
+					</div>
+					<p><small>Source: <a href="https://en.wikipedia.org/wiki/Color_depth">Wikipedia, Color depth</a></small></p>
+					<aside class="notes">
+					<p>A raster image is also known as a bitmap image, which are comprised of pixels in a grid. And each pixel contains a bit of colour information, a combination of the additive primary colours, red, green and blue.</p>
+					<p>A bitmap is essentially a spatially mapped array of bits. The number of bits per pixel will determine how many unique colours the image can contain, this is also known as colour depth.</p>
+					<p>Raster displays store per pixel image data as a bitmap in a region of memory called the frame buffer. So clearly, memory is an integral part of the rendering process. The total amount of memory needed is dependant on the resolution of the output signal and the colour depth.</p>
+					</aside>
+					</section>
+	
+				</section>
+				<section id="slide-1" data-markdown>
+					## ÍNDICE
+				</section>
+				<section id="slide-2">
+					<section id="slide-2.0">
+						<h2>Mapas isidorianos</h2>
+						<div class="l-multiple" style="align-items:end">
+							<figure>
+								<img class="plain" style="max-width:25vw; padding:5px;" data-src="images/mapa-cuadrado-Ov3.jpg" alt="Guetzli" title="Rouen, Bibliotheque municipale, MS 524, fol. 74v, siglo IX">
+								<figcaption>Mapa T-O y mapa V-</figcaption>
+							</figure>
+							<figure>
+								<img class="plain" style="max-width:20vw; padding:5px;" data-src="images/mapa-cuadrado-O.jpg" alt="libjpeg" title="Madrid, Biblioteca Nacional de España, MS Vitr. 14-2, fol. 12v">
+								<figcaption>Mapa V- con climas</figcaption>
+							</figure>
+							<figure>
+								<img class="plain" style="max-width:15vw; padding:5px;" data-src="images/mapa-cuadrado-Ov2.jpg" alt="mozJPEG" title="Rouen, Bibliotheque municipale, MS 1019, fol. 107v, siglo XIII">
+								<figcaption>Mapa V-</figcaption>
+							</figure>
+						</div>
+						<aside class="notes"> 
+							<p class="notegraph">
+									Sin embargo, había otra visión competitiva de la forma del mundo habitado: también hay mapas mundiales medievales que muestran a Europa, Asia y África formando un rectángulo.
+									Uno podría esperar que una visión tan distinta de la disposición geográfica de la Tierra hubiera atraído la atención académica, pero de hecho ha habido muy pocos estudios sobre este fenómeno. A estos mapas se les denomina V- y comienzan a aparecer ya en manuscritos del siglo IX acompañados de los clásicos mapas de T-O como el que veremos a continuación. Esto es lógico ya que según los escritos de San Isidoro la forma de la ecumene es como una rueda.
+									<blockquote>
+											El disco [de las tierras] deriva su nombre de la redondez del círculo, porque se parece a una rueda; por lo tanto, una rueda pequeña se llama "disco pequeño". De hecho, el océano que fluye a su alrededor en todos los lados abarca sus alcances más lejanos en un círculo. 
+									</blockquote>
+									San Isidoro también describe las proporciones entre los continentes. Esto se aprecia perfectamente en los mapas de T-O, pero es más complicado de advertir en los mapas de V- en los que no hay mitades. Dada la simplicidad de los diagramas de T-O, es curiosa la existencia de estos diagramas de V- en los que además se aprecia un detalle interesante. En la mayoría de los hasta ahora encontrados, las distintas partes del mundo se etiquetan con el reparto entre los hijos de Noe en vez de nombrar los continentes por su nombre. Hay muchos casos en los que los nombres de los hijos de Noé se agregan al mappaemundi medieval a pesar de que no aparecen en el pasaje del manuscrito que ilustran los mapas. Por lo tanto, parece muy probable que un copista haya agregado el mapa a un manuscrito temprano de las Etymologiae, en lugar de haberse originado con el propio Isidoro. Por esllo se considera el mapa de T-O propio de San Isidoro, mientras que los mapas de V- podrían ser una licencia añadida del copista.
+	
+							</p>
+							<p class="notegraph">
+									<strong>Mapa V-. Manuscrito del siglo IX de las etimologías de San Isidoro</strong>: <em>Rouen, Bibliotheque municipale, MS 524, fol.
+											74v</em>. Primera aparición de un mapa de V- conjuntamente con el mapa de T-O isidoriano. Vemos que los nombres de los continentes no aparecen en la versión de V-, y sólo figuran los hijos de Noe. Los nombres sí aparecenm en los mapas de T-O. Curioso mapa que muestra el este en la parte superior, pero que señala el oeste <em>occidens</em> a la izquierda, error que se repite en varios mapas.
+							</p>						
+							<p class="notegraph">
+									<strong>Mapa V- con climas</strong>: <em>Madrid, Biblioteca Nacional de España, MS Vitr. 14-2, fol. 12v</em>. En este mapa el cartógrafo ha añadido información climática. indicando que Europa es fría, Asia templada y <em>Lybia</em> (África es calurosa. Mapa extraido de las tablas de la Genealogía de Jesucristo, del códice del Beato de Fernando I y Doña Sancha, 1047. También reparte los continentes entre los hijos de Noe. 
+							</p>
+							<p class="notegraph">
+									<strong>Mapa V-. Manuscrito del siglo XIII con extracto de las etimologías de San Isidoro</strong>: <em>Rouen, Bibliotheque municipale, MS 1019, fol. 107v</em>. Una vez más aparece la confusión de los puntos cardinales y se muestra la división del mundo entre los hijos de Noe: <strong>Sem</strong> recibe Asia, <strong>Jafet</strong> Europa y <strong>Cam</strong> África.
+							</p>
+						</aside>
+					</section>
+					<section id="slide-2.0">
+							<h2>Mapas isidorianos - Mapas de V-</h2>
+							<div class="l-multiple" style="align-items:center">
+									<figure>
+											<img class="plain" style="max-width:30vw;" data-src="images/mapa-cuadrado-Ov4.jpg" alt="Guetzli" title="Mare historiarum. BnF, MS lat. 4915, fol. 26v, 1447–1455">
+											<figcaption>Mapa V- tridimensional<br/><small>BnF, MS lat. 4915, fol. 26v, 1447–1455</small></figcaption>
+										</figure>
+				
+							</div>
+							<aside class="notes"> 
+									<p class="notegraph">
+										Aquí se muestra el <em>mappaemundi</em> de tipo V- del manuscrito <em>Mare historiarum</em> del maestro Jouvenel des Ursins, realizado entre 1447 y 1455. Utiliza la perspectiva renacentista para ilustrar esta imagen a vista de pájaro en la que se aprecia la curvatura de la tierra en el horizonte. Los tres continentes son separados por dos cursos de agua. La zona de la derecha corresponde a Europa en donde hombres y mujeres visten coloridos ropajes. En las otras dos partes, correspondientes a África y Asia, aparacen habitadas por seres desnudos miembros de las llamadas razas monstruosas: blemias, cinocéfalos, esciápodos... En esta obra el artista transforma un diagrama medieval confuso en una imagen renacentista sorprendente y viva del mundo al agregar perspectiva y también representaciones artísticas de las diferentes razas de hombres, edificios, flora, el mar y el cielo.
+									</p>
+							</aside>
+					</section>
+					<section id="slide-2.0">
+							<h2>Mapas isidorianos - Mapas de Y-O</h2>
+							<div class="l-multiple" style="align-items:center">
+									<figure>
+											<img class="plain" style="max-width:30vw;" data-src="images/mapa-y-o.jpg" alt="Guetzli" title="Macon, Bibliotheque Municipale, MS 2, fol. 19r, ca. 1480">
+											<figcaption>Mapa Y-O tridimensional, 1480 por Maitre de Coetivy<br/><small>Macon, Bibliotheque Municipale, MS 2, fol. 19r</small></figcaption>
+										</figure>
+										 
+							</div>
+							<aside class="notes"> 
+									<p class="notegraph">
+										Otra variante de los <em>mappaemundi</em>  isidorianos son los llamados mapas de Y-O.
+									</p>
+							</aside>
+					</section>				
+				</section>
+				<section id="slide-3" data-markdown>
+					## IMPERIO ROMANO
+				</section>
+				<section id="slide-4">
+					<section id="slide-4.0" data-markdown>
+						## NOMBRES PROPIOS
+						
+						* Mapas zonales de Macrobio.
+						* Paulo Orosio.
+						* San Isidoro
+							* Mapas de T-O
+						* Cosmas Indicopleustes.
+					</section>				
+					<section id="slide-4.1">
+							<h2>Alineación de imágenes</h2>
+							<div class="l-double">
+							<figure>
+							<img class="plain" data-src="https://www.chenhuijing.com/slides/56-imagecon-2019/img/opt-pngfull.jpg" alt="Full colour PNG">
+							<figcaption>Full colour PNG</figcaption>
+							</figure>
+							<figure>
+							<img class="plain" data-src="https://www.chenhuijing.com/slides/56-imagecon-2019/img/opt-pngindexed.jpg" alt="Indexed palette PNG">
+							<figcaption>Indexed colour PNG</figcaption>
+							</figure>
+							</div>
+							<p><small>Reference: <a href="https://medium.com/@duhroach/reducing-png-file-size-8473480d0476">Reducing PNG file Size</a></small></p>
+							<aside class="notes">
+							<p>If your image is neither a photograph nor contains lots of gradients, you could consider changing its colour mode to indexed. This will generate a reduced palette of colours from your source image.</p>
+							<p>What we're doing here is increasing the odds that adjacent pixels are pointing to the same colour, resulting in even more duplicate values at the end of the filtering process. More duplicate values, better compression, smaller file size.</p>
+							<p>Given the amount of possible savings, it might be worth it to just do an inventory of your images to see if you can get away with this conversion at scale.</p>
+							</aside>
+					</section>				
+					<section id="slide-4.2">
+							<h2>Título Orden 2 <span class="emoji" role="img" tabindex="0" aria-label="folded hands">&#x1F64F;</span></h2>
+							<div class="l-multiple" style="align-items:center">
+							<figure>
+							<img class="plain" style="max-width:15vw" data-src="images/base500px_50px.png" alt="skia logo">
+							<figcaption>Caption 1</figcaption>
+							</figure>
+							<figure>
+							<img class="plain" style="max-width:15vw" data-src="images/base500px_50px.png" alt="Mozilla GFX team logo">
+							<figcaption>Caption 2</figcaption>
+							</figure>
+							<figure>
+							<img class="plain" style="max-width:15vw" data-src="images/base500px_50px.png" alt="Mozilla GFX team logo">
+							<figcaption>Caption 3</figcaption>
+							</figure>
+							<figure>
+							<img class="plain" style="max-width:15vw" data-src="images/base500px_50px.png" alt="cairo logo">
+							<figcaption>Caption 4</figcaption>
+							</figure>
+							<figure>
+							<img class="plain" style="max-width:15vw" data-src="images/base500px_50px.png" alt="pango logo">
+							<figcaption>Caption 5</figcaption>
+							</figure>
+							</div>
+							<aside class="notes">
+							<p>Of course, commercial browsers make use of graphics APIs and libraries to implement rasterisation, because clearly what we expect from the web is much more than just solid coloured rectangles. Browser makers need functions for rendering text, polygons, lines, gradients, curves…you know, all of the things.</p>
+							<p>This is a list of common graphics libraries currently being used to power the popular browser engines. Chrome uses the Skia graphics library almost exclusively for all graphics operations, even text rendering.</p>
+							<p>Firefox used to use CoreGraphics and Cairo but eventually simplified the number of backends they ran on. And after the smoke clears on their big engine overhaul, Firefox will eventually use Skia for canvas, and WebRender for everything else.</p>
+							<p>Safari, which is based on WebKit, apparently used Apple's Core Image libraries, but I'm not sure what they use right this minute.</p>
+							</aside>
+					</section>
+					<section id="slide-4.3">
+					<h2>Lista de características</h2>
+					<ul style="column-count:2;font-size:75%;break-inside:avoid-column">
+						<li>Davis, W. (1986). <em>The Origins of Image Making.</em> Current Anthropology, 27(3), 193-215. doi:10.1086/203422</li>
+						<li><a href="#">The GIF Is Dead. Long Live the GIF.</a></li>
+						<li><a href="#">Types of Bitmaps</a></li>
+						<li><a href="#">Why do we need JPG compression and how it's technically working?</a> by <a href="https://techeries.com/about-us/">Steven Hansen</a></li>
+						<li><a href="#">Progressive JPEGs and green Martians</a> by <a href="https://twitter.com/jonsneyers">Jon Sneyers</a></li>
+						<li><a href="#">Finally understanding JPG</a> by <a href="https://twitter.com/McSodbrenner">Christoph Erdmann</a></li>
+						<li><a href="#">How JPG Works</a>, <a href="https://medium.com/@duhroach/how-png-works-f1174e3cc7b7">How PNG Works</a>, <a href="https://medium.com/@duhroach/reducing-png-file-size-8473480d0476">Reducing PNG file Size</a> by <a href="https://twitter.com/duhroach">Colt McAnlis</a></li>
+						<li><a href="#">Thoughts on a GIF-replacement file format</a></li>
+						<li><a href="#">Quantum Up Close: What is a browser engine?</a> by <a href="https://twitter.com/potch">Matt "Potch" Claypotch</a></li>
+						<li><a href="#">Let's build a browser engine!</a> by <a href="https://limpet.net/mbrubeck/">Matt Brubeck</a></li>
+						<li><a href="#">On rendering engines and graphic libraries</a> by <a href="https://kilianvalkhof.com/">Kilian Valkhof</a></li>
+						<li><a href="#">Following up on the 2d graphics in Rust discussion</a> by <a href="">Nicolas Silva</a></li>
+						<li><a href="#">Introduction to WebRender – Part 1 – Browsers today</a> by <a href="">Nicolas Silva</a></li>
+						<li><a href="#">The whole web at maximum FPS: How WebRender gets rid of jank</a> by <a href="">Lin Clark</a></li>
+						<li><a href="#">Software vs. GPU rasterization in Chromium*</a> by <a href="https://mkollaro.github.io/">Martina Kollarova</a></li>
+						<li><a href="#"> GPU Accelerated Compositing in Chrome</a> by Tom Wiltzius, Vangelis Kokkevis & the Chrome Graphics team</li>
+					</ul>
+	<aside class="notes">And I also read a lot more than is on here, but this list only contains links to what I actually reference in my talk. If all this is as fascinating to you as it is to me, come chat! I'll share my longer list of resources with you as well.</aside>
+					</section>
+					<section id="slide-4.4">
+						<h2>Inserción videos</h2>
+						<div class="l-multiple">
+							<!--<video loop autoplay>
+							<source data-src="videos/beyonce.mp4" type="video/mp4">
+							Sorry, your browser doesn't support embedded videos,
+							but don't worry, you can <a href="videos/beyonce.mp4">download it</a>
+							and watch it with your favourite video player!
+							</video>-->
+							<video loop autoplay>
+							<source data-src="videos/mind-blown.mp4" type="video/mp4">
+							Sorry, your browser doesn't support embedded videos,
+							but don't worry, you can <a href="videos/mind-blown.mp4">download it</a>
+							and watch it with your favourite video player!
+							</video>
+							<!--<video loop autoplay>
+							<source data-src="videos/shaq.mp4" type="video/mp4">
+							Sorry, your browser doesn't support embedded videos,
+							but don't worry, you can <a href="videos/shaq.mp4">download it</a>
+							and watch it with your favourite video player!
+							</video>-->
+						</div>
+						<aside class="notes">
+						<p>If you squinted hard at my slides when I first mentioned GIFs, you may have noticed the specification said GIF87a. GIF89a was an extension that added features like transparency, and more crucially, the ability to animate the GIF.</p>
+						<p>Animated GIFs have had enormous staying power, seeing as how I've sent more than handful just earlier today. They had been all the rage on the web the moment browsers started to support them and in 1994, Unisys decided to enforce its patent.</p>
+						<p>By December of 1994, a court agreement between Unisys and CompuServe resulted in the announcement that Unisys would start collecting royalties from all software makers who used the GIF89a format.</p>
+						</aside>
+					</section>
+					<section id="slide-5.5">
+
+						<h3>Características del  Islam</h3>
+						<p class="fragment step-fade-in-then-out">One</p>
+						<p class="fragment step-fade-in-then-out">Two</p>
+						<p class="fragment step-fade-in-then-out">Three</p>
+						<p class="fragment step-fade-in-then-out">Four</p>
+
+					</section>
+
+				</section>
+				<section id="slide-5" data-markdown>
+					## ALTA EDAD MEDIA
+					
+					* Mapa de Albi.
+					* Mapa del Vaticano.
+				</section>
+				<section id="slide-6" data-markdown>
+					<section id="slide-6.0" data-markdown>
+						## CORPUS CARTOGRÁFICO
+						### LOS BEATOS
+						
+						* Beato de Liébana
+						* Stemma (Árbol geonealógico) de los Beatos
+						* Características de las familias
+					</section>
+				</section>
+
+
+				
+				<section id="slide-100" data-markdown>
+						## CONCLUSIONES
+				</section>
+				<section>
+						<h2>Gracias por su atención</h2>
+						<p>
+							Turno de preguntas
+						</p>
+				</section>		
+				
+			</section><!-- Final Keynote-->
+		</div>
+	</div>
+
+		<div class="keynoteLogoUp">
+			<img src="images/esquina.jpg">
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/math/math.js'},
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
