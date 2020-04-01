@@ -1,0 +1,52 @@
+/*
+Con esto añadimos un estilo a la slide intro-islamic cuando está presente
+Si no ponemos el .present, hay que añadir !important a la propidad
+*/
+html.intro-islamic .slide-background.present {
+  opacity: 0.25;
+  transform: scale(1.2);
+}
+
+.reveal .slides section .fragment.step-fade-in-then-out {
+  opacity: 0;
+  display: none; 
+  top:130px;
+  vertical-align:top;
+}
+.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+  opacity: 1;
+  display: inline; 
+  top:130px;
+  vertical-align:top;
+}
+
+.stack-fragmentos{
+  position:relative;
+}
+.stack-fragmento-elem{
+  position:absolute; 
+  margin-left: auto; 
+  margin-right: auto; 
+  left:0; 
+  right:0;
+}
+
+.sidebarRight {
+  display: block;
+  position: fixed;
+  width: 200px;
+  height: auto;
+  z-index: 31;
+  left: -200px;
+  bottom: 5px;
+  -webkit-user-select: none;
+}
+.sidebarRight p{
+  font-size: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.sidebarRight li{
+  font-size: 50%;
+}
