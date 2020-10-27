@@ -1,6 +1,6 @@
 ### Ibn Ḥawqal
 
-* 👳 Muḥammad Abū’l-Qāsim Ibn Ḥawqal **Ibn Ḥawqal**
+* 👳 Muḥammad Abū’l-Qāsim ibn Ḥawqal **ibn Ḥawqal**
 * ⏳ Nisibis, 🇹 , 943 -977
 * Geógrafo, escritor y cronista
 * Miembro de la Escuela Balkhi

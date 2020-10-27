@@ -1,4 +1,4 @@
-### al-Istakhri
+### al-Istakhrī
 
 * 👳 Abu Ishaq Ibrahim ibn Muhammad al-Fārisī **al-Istakhrī**
 * ⏳ Istakhr - Baghdad, ca.952
