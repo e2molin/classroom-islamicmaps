@@ -1,37 +1,28 @@
-# Los mapas islámicos
+<p align="center">
+  <a href="https://revealjs.com">
+  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
+  </a>
+  <br><br>
+  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
+  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+</p>
 
+reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
 
-## RevealJS classroom
+The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
 
-### Material de referencia
+<h1>
+  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
+</h1>
 
-#### Documento cartográfico 1
+## Documentation
+The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
 
-Universiteit Leiden
-Abu Isḥāq Ibrāhīm ibn Muḥammad al-Iṣṭakhrī, 1193
-https://digitalcollections.universiteitleiden.nl/view/item/1577846
-http://hdl.handle.net/1887.1/item:1577846
+## Online Editor
+Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
 
+## License
 
-#### Documento cartográfico 2
+MIT licensed
 
-Book of Curiosities, Anónimo.
-Anónimo, copia del siglo XIII de un original escrito en la segunda mitad del siglo XI y conservado en la Bodleian Library de Oxford
-Bodleian Library MS. Arab. c. 90
-https://digital.bodleian.ox.ac.uk/inquire/p/36ebabd9-4d62-4d8e-8e7b-1afd048e872e
-
-
-#### Documento cartográfico 3
-
-Kitāb al-masālik wa-'l-mamālik
-Bibliothek Erfurt/Gotha, Ms. orient. A 1521
-
-https://archive.thulb.uni-jena.de/ufb/receive/ufb_cbu_00011296?derivate=ufb_derivate_00010485
-https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00010485/Ms-orient-A-01521_000.tif?logicalDiv=log_c5f88250-712e-453c-82a7-0ec00d6b3626
-
-
-### Artículos
-https://muslimheritage.com/unpublished-arabic-geography/
-https://histoireislamique.wordpress.com/2014/05/05/carte-du-monde-faite-par-les-geographes-abbasside-du-calife-al-mamun-813-833/
-https://www.aramcoworld.com/Articles/November-2019/Messages-in-the-Maps
-https://www.academia.edu/1153023/Surat_Bahr_al_Rum_Picture_of_the_Sea_of_Byzantium_Possible_Meanings_Underlying_the_Forms
+Copyright (C) 2011-2020 Hakim El Hattab, https://hakim.se

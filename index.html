@@ -6,14 +6,14 @@
 
 		<title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-		<link rel="stylesheet" href="css/jing.css">
-		<link rel="stylesheet" href="css/personal.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<link rel="stylesheet" href="dist/jing.css">
+		<link rel="stylesheet" href="dist/personal.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 
 		<style>
 			.keynoteLogoDown {
@@ -46,24 +46,13 @@
 			}
 		</style>
 
-
-
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
 	</head>
 	<body>
-
+		
 		<div class="reveal">
 			<div class="slides">
 	
-				<section id="portrait">
+				<section id="portrait" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
 					<h1>HISTORIA DE LA CARTOGRAFÍA</h1>
 					<br/>
 					<h2>La Cartografía en la Edad Media</h2>
@@ -77,848 +66,406 @@
 						<br/>
 						
 					</p>
+					<aside class="notes">
+						<p>HISTORIA DE LA CARTOGRAFÍA</p>
+						<p>La Cartografía en la Edad Media - Mapas islámicos</p>
+						<p>Judith Sánchez González</p>
+						<p>30 de septiembre de 2019</p>
+					</aside>
+
 				</section>
 
 				<!-- Índice -->
-				<section id="slide-1" data-markdown>
+				<section id="slide-1" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120% data-markdown>
 					## ÍNDICE
 				</section>
 				
 
 				<!-- Definimos estilo para la sección -->
-				<section id="slide-7" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
-					<section id="slide-7.1"  >
-
-						<h2>CARTOGRAFÍA ISLÁMICA</h2>
-						<ul>
-							<li>Contexto histórico.</li>
-							<li>La escuela bagdasí de Al Bakhi.</li>
-							<li>Los mapas KMMS</li>
-							<li>Al Idrisi y Roger II de Sicilia.</li>
-						</ul>
-
-					</section>
-					<section id="slide-7.2">
-						
-						<h3>Cronología mundo islámico</h3>
-						<div class="stack-fragmentos" >
-							<div class="fragment stack-fragmento-elem fade-out"  data-fragment-index="0">
-								<ul>
-									<li>570-632: Vida de Mahoma.</li>
-									<li>632-661: <strong>Primeros califas</strong> 👉 Expansión Oriente Medio y Egipto.</li>
-									<ul>
-										<li>638: Toma de Jerusalen.</li>
-										<li>661: Asesinato de Alí. Comienza el chiísmo.</li>
-									</ul>
-									<li>661-750: <strong>Califato de los Omeyas</strong>. Capital Damasco.</li>
-									<ul>
-										<li>711: Desembarco en la península ibérica.</li>
-										<li>732: Batalla de Poitiers. Carlos Martel.</li>
-									</ul>
-									<li>756-1031: <strong>Al Andalus - Córdoba.</strong></li>
-									<ul>
-										<li>756: Abderramán proclama emirato independiente.</li>
-										<li>929–1031: Califato de Córdoba.</li>
-								</ul>
-								</ul>
-							</div>
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="0">
-								<img src="images/islamic-expansion1.png">
-							</div>
-							<div class="fragment stack-fragmento-elem fade-in"  data-fragment-index="1">
-								<ul>
-									<li>750-1258: <strong>Califato de los Abasíes</strong>. Suní. Capital Bagdad.</li>
-									<ul>
-										<li>997: Mahmūd, primer sultán. Imperio gaznávida (Afganistán).</li>
-										<li>1037: muerte del pensador Ibn Sina (Avicena). Sultanato Selyúcida.</li>
-										<li>1077-1299: Sultanato del Rüm, hoy Turquía. Origen turcomongol.</li>
-										<li>1198: muerte del filósofo Ibn Rouchd (Averroes).</li>
-										<li>1258: destrucción de Bagdad por los mongoles.</li>
-									</ul>
-									<li>909–1171: <strong>Califato fatimí</strong>. Chií. Capital Cairuán (Túnez) y El Cairo.</li>
-									<ul>
-										<li>1171-1250: Salah-Al-Din lo derrota 👉 Dinastía ayubí (kurdos).</li>
-									</ul>
-									<li>1250–1517: <strong>Sultanato mameluco de Egipto</strong>.</li>
-									<ul>
-										<li>Heredero de la Dinastía ayubí</li>
-										<li>Califas sometidos a los sultanes.</li>
-									</ul>
-									<li>1290-1923: <strong>Imperio turco otomano</strong></li>
-									<ul>
-										<li>Imperio multiétnico. Turcos del Sultanato del Rüm.</li>
-										<li>1453: Caída de Constantinopla.</li>
-										<li>1517: Selim I, sultán se proclama califa 👉 <strong>Califato otomano</strong>.</li>
-								</ul>
-								</ul>
-								
-							</div>
-					</div>
-					<aside class="notes">
-						<p>Islam es una religión monoteísta. Fundador Mahoma. Libro sagrado Corán. La Meca ciudad santa de peregrinación. Mahoma huye de La Meca a Medina en <em>la Hégira</em>, año 622, inicio del calendario musulmán. </p>
-						<p>Rangos nobiliarios musulmanes:
-							<ul>
-								<li>El Califa es el sucesor y delegado de Mahoma, su función es ejercer la autoridad de creyentes de acuerdo al modelo creado por Mahoma. Tiene el rango de Emperador y se le considera la máxima autoridad del mundo islámico.</li>
-								<li>El Sultán es un titulo que equivale a un monarca. En la actualidad gobierna un Sultán en los estados de Brunei y Omán.</li>
-								<li>El Visir es el primer ministro.</li>
-								<li>El Emir es un titulo de alto rango y usado en jeques de alto linaje. Es análogo a Príncipe, y el Emirato a un Principado.</li>
-								<li>El Jeque es un titulo aplicado a líderes religiosos o políticos a nivel local.</li>
-								<li>El Cadí es el juez que aplica las leyes.</li>
-								<li>El Hakim es un sabio musulmán.</li>
-							</ul>
-							El califa representa la máxima autoridad, religiosa y política. Las condiciones para ser califa varía entra las facciones del islamismo (chíes y sunníes): ser árabe, y de la familia del profeta Mahoma. El sultán representa la autoridad civil, como la de un rey o monarca. El sultán ejercía el poder bajo la autoridad del califa, pues el sultán no tiene poder religioso. Es similar a lo que ocurría en la cristiandad, donde el emperador gobernaba bajo la autoridad o con el beneplácito del papado.
-						</p>
-						<p>
-							Sobre siglo XI, en paralelo a la primera disputa entre el emperador y el papa, aparece el primer sultán, de origen turco. Se llamaba Mahmud (reinado: 997-1030), de la dinastía Gaznávida de Afganistán. En 1037, el Sultanato Selyúcida. Y poco después, en 1077, el Sultanato del Rüm, en lo que hoy es Turquía. En el siglo XVI, como en la cristiandad, el sultán se impuso al califa. Se llamaba Selim I (1512-1520), era el sultán otomano o turco. Su vida corre en paralelo a la de Enrique VIII. Selim no era árabe, ni descendiente de Mahoma: era turco. Pero se hizo con la autoridad religiosa, al hacerse nombrar “califa”. Por primera vez en el islam, el poder civil tomaba control del religioso, como pasaba igualmente en la cristiandad. Acababa de aparecer un califato dominado por el sultán, el “califato otomano” (1517-1924). El último califa árabe, proveniente de Bagdad, estaba afincado en Egipto. Éste cedió al sultán turco el manto y la espada del Profeta. Estos eran los símbolos del poder supremo, religioso y civil. Hasta el día de hoy se encuentran en el palacio Topkapi de Estambul (Turquía).
-						</p>
-						<p>Cambios de fecha<ul> <li><em>FechaGregoriano = 32 / 33 *  FechaMusulmana + 622</em></li><li><em> FechaMusulmana = 33 / 32 (FechaGregoriano - 622)</em></li></ul></p>
-					</aside>					
-						
-					</section>
-					<section id="slide-7.3">
-
-						<h3>Edad de Oro del Islam</h3>
-						<div class="stack-fragmentos" >
-							<div class="fragment stack-fragmento-elem fade-out"  data-fragment-index="0">
-								<ul>
-									<li>Islam 👉 Concepción holística de Dios, humanidad y naturaleza (ciencia).</li>
-									<li>Énfasis el valor del conocimiento. Mahoma dice: </li>
-									<blockquote>La tinta de los científicos vale tanto como la sangre de los mártires.</blockquote>
-									<li>⏳ Siglo VIII - Siglo XIII - Dinastía Abasí. Bagdad 🕌</li>
-									<li>Bagdad 🧞 👉 <strong>Casa de la sabiduría</strong>  👉 Biblioteca y Centro de traducciones.</li>
-									<li>Libertad religiosa 🕌⛪🕍: atrae a intelectuales judíos y cristianos.</li>
-									<li>Intercambio con el Imperio Bizantino, heredero de Roma.</li>
-									<li>Centros intelectuales: El Cairo y Córdoba.</li>
-									<li>Primeras bibliotecas públicas 🏛, universidades 🎓 y observatorios 🔭.</li>
-									<ul>
-										<li>Universidad más antigua del mundo: Fez, 859. El Cairo, 975.</li>
-										<li>Bibliotecas: El Cairo 500 000 📚. Trípoli, 3 000 000 📚.</li>
-										<li>Córdoba: más de 70 bibliotecas públicas.</li>
-									</ul>
-									<li>Tecnologías: Mejoran el papel chino. Pluma sobre pincel.</li>
-								</ul>
-							</div>
-							<div class="fragment stack-fragmento-elem fade-in"  data-fragment-index="0">
-								<ul>
-									<li>Textos clasicos griegos de Egipto y Bizancio 👉 Traducción al árabe. Unifica.</li>
-									<li>Matemáticas: numeración arábiga 👉 El Álgebra.</li>
-									<li><strong>Ibn al-Hayzam</strong> desarrolla los primeros métodos científicos. Enfoque empírico.</li>
-									<li><strong>Ibn Sina (Avicena)</strong> en medicina y <strong>Al-Biruni</strong> (astrolabio y el sistema decimal).</li>
-									<li>Traducción al árabe del <em>Almagesto</em> de Ptolomeo.</li>
-									<li>Se extiende el uso del astrolabio y la brújula.</li>
-								</ul>
-								<figure>
-									<img class="plain" style="max-height:50vh" data-src="images/islamic-comercio.png" alt="Non-key areas of image blurred out">
-									<figcaption>Rutas del comercio durante la Dinastía Abasí</figcaption>
-								</figure>								
-							</div>
-						</div>
-						<aside class="notes">
-							<p>En el Islam, la naturaleza no es vista como una entidad separada, sino como parte integral de la perspectiva holística del Islam en Dios, la humanidad y el mundo. Este enlace implica para los musulmanes un aspecto sagrado en la búsqueda del conocimiento científico.
-							La Casa de la Sabiduría en Bagdad ▶ Académicos musulmanes y no musulmanes recopilan y traducen al árabe todo el conocimiento mundial a la lengua árabe ▶ Evitan que se pierdan obras del Mundo Clásico y las traducen al turco, persa, hebreo y latín. ▶ Crisol de culturas del conocimiento heredado de las culturas de la antigua China, de la India, de Persia, de Egipto, del Norte de África, de la Grecia Clásica y del Imperio bizantino.​
-							</p>
-							<p>
-								Mejoras técnicas. Mejoran el papel chino añadiendo corteza de morera y almidón. Mejoras en la escritura con el uso de la pluma en vez del pincel chino.  La tradición de la peregrinación a la Meca la convirtió en un centro de intercambio de ideas y mercancías. La civilización islámica creció sobre la base de su economía mercantil, en contraste con los cristianos, indios y chinos, quienes construyeron sus sociedades a partir de la nobleza terrateniente agrícola. Los comerciantes musulmanes transportaron sus mercancías y su fe a China, a La India, y a los reinos del oeste africano, regresando de estos países con nuevas invenciones. Los comerciantes usaron su riqueza para investigar en textiles y plantaciones.
-							</p>
-							<p>
-								El matemático Ibn al-Hayzam (Alhacén) (965-1040) crea el método científico.
-							</p>
-						</aside>
-
-					</section>
-					<section id="slide-7.4">
-						<h3>El astrolabio</h3>
-						<div class="l-double" style="justify-items:center">
-							<figure>
-								<img class="plain" style="max-height:50vh" data-src="images/islamic-astrolabio.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Astrolabio de ibn Sa'id al-Shali, Toledo, 1067. MAN de Madrid <a href="https://commons.wikimedia.org/wiki/File:Astrolabio_(16787706916).jpg" target="_blank">🔗</a></figcaption>
-							</figure>
-							<div >
-								<ul>
-									<li>El <em>miḥrâb</em> de la mezquita se orienta según la <em>Qibla</em> o dirección hacia La Meca 🕋.</li>
-									<li>Matemático Muhammad al-Fazari (fl.790-806), primer astrolabio.</li>
-									<li>Tablas de ortos (amanecer) 🌄 y ocasos 🌇 de multitud de estrellas para las horas del <em>salat</em> 🙏 (rezo).</li>
-									<li><strong>Abd al-Rahman al-Sufi</strong> 📘 los 1000 usos de un astrolabio.</li>
-								</ul>
-							</div>
-						</div>
-						<aside class="notes">
-
-						</aside>
+				<section id="slide-7" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
+					
+					<section id="slide-7.1" data-markdown="keynote/007-01-index.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
 
-					<section id="slide-7.5">
-						<h3>La brújula 🧭</h3>
-						<div class="l-double" style="justify-items:center">
-							<figure>
-							<img class="plain" style="max-height:50vh" data-src="images/islamic-compass.png" alt="Non-key areas of image blurred out">
-							<figcaption>Dial de brújula y Qibla. Manuscrito de Al-Ashref. Yemen, 1293<a href="https://commons.wikimedia.org/wiki/File:Al-Ashraf_compass_and_qibla_diagram.png" target="_blank">🔗</a></figcaption>
-						</figure>
-							<div >
-								<ul>
-									<li>1232: primera referencia a una brujula en un viaje por el Mar Rojo y el golfo Pérsico. Artefacto de origen chino.</li>
-									<li>1242: <strong>Baylak al-Qibjāqī</strong> describe el uso de agujas imantadas en un viaje de Siria a Alejandría.</li>
-									<li>Siglo XIV: <strong>Ibn al-Shatir </strong> inventa la <em>ṣandūq al‐yawāqīt</em> (caja mágica), encerrando la aguja imantada en una caja con un dial con subdivisiones. Se empieza a utilizar la rosa de los vientos con 32 rumbos.</li>
-									<li>Siglo XV: <strong>Ahmad ibn Mājid</strong> describe los principios básicos de navegación con brújula, incluyendo el concepto de declinación magnética.</li>
-								</ul>
-							</div>
-						</div>
-						<aside class="notes">
+					<section id="slide-7.2" data-markdown="keynote/007-02-cronologia.md" data-separator="^#---------#" data-separator-vertical="^\r\n\r\n" 	data-separator-notes="^Note:" data-charset="utf-8">
+					</section>
+		
+				</section>
 
-						</aside>
+				<section id="slide-8" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
+
+					<section id="slide-8.1" data-markdown="keynote/008-01-ciencia.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
 
 				</section>
 
+
 				<!-- Definimos estilo para la sección -->
-				<section id="slide-8" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
+				<section id="slide-9" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
 
-					<!--Características generales-->
-					<section id="slide-7.6">
-						<h3>Cartografía islámica</h3>
-						<ul>
-							<li>¿De qué estamos hablando? ¿Imagen, representación, esquema...?</li>
-							<li>Influencias de oriente y occidente.</li>
-							<ul>
-								<li>Bizancio 👉 Ptolomeo (Nomenclátor).  Menos influencia que en el Renacimiento</li>
-								<li>China 👉 Materiales. Brújula.</li>
-								<li>India 👉 Cúpula de la Tierra. Establecimiento de un meridiano.</li>
-								<li>Persia 👉 División del mundoLa división en climas griega <em>καιρός</em> (Kairós)  👉 <em>iqlīm</em>, en plural <em></em>aqālīm</em></li>
-								<li>Necesidad de división del territorio: estudio, recaudación de impuestos.</li>
-							</ul>
-							<li>Definición de unidades de medida</li>
-							<ul>
-								<li><em>Dhirā</em> (codo) (0.6 metros). <em>Mīl</em> (milla) (3000 <em>dhirā</em>). El <em>farsakh</em> (3 mīl o 5.5 Km).</li>
-								<li>Un día de viaje era un <em>marhalah</em>. Una etapa de viaje, <em>manzil</em>. </li>
-								<li>La navegación de un día es un <em>majrā</em>. Tres horas de navegación es un <em>zām</em>.</li>
-								<li>Latitudes y longitudes se miden en grados, minutos, <em>darajahs</em> y  <em>daqīqahs</em>.</li>
-							</ul>
-							<li>Cartografía poco estudiada</li>
-							<ul>
-								<li>No han sobrevivido grandes mapas.</li>
-								<li>1840: <strong>Jaubert</strong> traduce geografía de <strong>al-Idrisi</strong>.</li>
-								<li>1920: <strong>Konrad Miller</strong> publica <em>Mappae arabicae</em>.</li>
-								<li>Clasificación de <strong>Johannes Hendrik Kramer</strong>.</li>
-							</ul>
+					<section id="slide-9.1" data-markdown="keynote/009-01-cartoislam-index.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
+					</section>
 
-						</ul>
-						<aside class="notes">
-							<p>
-								Al igual que en occidente no existe la palabra mapa como hoy en día. ¿Cómo denominamos entonces a estas representaciones del mundo?. La palabra <em>surat</em>> significa imagen. El sufijo <em>-iirah</em> , dar forma. No son términos que se apliquen exclusivamente al artefacto que hoy llamamos mapa, sino que pueden aplicarse a cualquier tipo de representación visual. La disciplina de la cartografía estaba fuertemente imbricada con otras disciplinas, como religión, administración del territorio, itinerarios. Podemos decir que los mapas se usaban conjuntamente para aclarar o esquematizar lo que expresaba un texto. Una representación visual de algo escrito. La estandarización y la especialización comienzan solo con el período moderno.
-							</p>
-							<p>
-								El contacto con el imperio bizantino permite la llegada del conocimiento de los trabajos de Ptolomeo. Interesa su nomenclátor. Para comprobar sus medidas de latitud y longitud repiten los experimentos de Eratóstenes para fijar unidades. Pero sorprendentemente no utilizan las herramientas de Ptolomeo para construir proyecciones. De los persas heredan el concepto de la división del mundo habitado en <strong>siete</strong> regiones o <em>kishvars</em>. Los árabes asemejan este concepto con el de los climas griegos, que también son siete, sin embargo se hereda con su significado de división. Para los griegos la palabra <em>καιρός</em> (Kairós), siginifica inclinación de los rayos del sol al incidir sobre la tierra. Los musulmanes utilizan la palabra árabe <em>iqlīm</em>, en plural <em></em>aqālīm</em>. Los musulmanes utilizan este término para designar la división del territorio. 
-							</p>
-							<p>
-								La cartografía de origen islámico apenas se estudia hasta el siglo XIX, en donde se empiezan a traducir los trabajos de al-Idrisi. A comienzos del siglo XX se empiezan a utilizar para diversos estudios las tablas matemátuas de coordenadas, pero los mapas en sí son poco apreciados por su caracter impreciso. Poco valorados. Los mapas islámicos están muy relacionados con el texto manuscrito en donde se encuentran, y el desconocimiento del idioma lleva a muchos investigadores a no considerarlos.</p>
-								<p>El interés por la cartografía islámica surge de la mano de <strong>Konrad Miller</strong> en 1920, que publica su compendio de cartografía <em>Mappae arabicae</em>. Entre 1926 <strong>>Youssouf Kamal</strong> publica <em>Monumenta cartographica Africae et Aegypti</em>, que busca referencias africanas en la cartografía. El objeto de esta obra no es la cartografía islámica en sí, pero la utiliza ampliamente, comparándola con cartografías de la misma época.</p>
-							</p>
-						</aside>
+					<section id="slide-9.2" data-markdown="keynote/009-02-cartoislam-caracteristicas.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
+					</section>
+
+					<section id="slide-9.2" data-markdown="keynote/009-03-cartoislam-materiales.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
 
 					<!--Características-->
-					<section id="slide-8-Caracteristicas">
-						<h3>Características</h3>
-						<div class="l-multiple" style="justify-items:center">
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-map-balkhi-istakhri-persico.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Ilustrativa</figcaption>
-							</figure>
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-caract-simplicity.jpg" title="Detalle Mapa KMMS de la zona del MAr Caspio y Aral. Anónimo. Sülemaniye Camii Kütüphanesi,Istanbul. Aya Sofya 2971a, f. 3a">
-								<figcaption>Simplificada. Caspio y Aral. Límites administrativos</figcaption>
-							</figure>
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-caract-islas.jpg" title="Mapa del golfo Pérsico, Siglos XIV-XV. Basado en los mapas de al-Istakhri. Central Library, Tehran University">
-								<figcaption>Islas principales en el Índico</figcaption>
-							</figure>							
-						</div>
-						<div class="l-multiple" style="justify-items:center">
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-caract-costas.jpg" title="1424 - KMMS world map from al-Istakhri - Topkapy Saray Museum">
-								<figcaption>Costas delineadas con regla y compás</figcaption>
-							</figure>	
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-caract-caligrafia.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Caligrafía</figcaption>
-							</figure>	
-																					
-						</div>
-						<aside class="notes">
-							<p>Los mapas no constituyen obras por si solos, forman patrde de compendios geográficos y recopilaciones históricos: itinerarios de rutas comerciales, recopilaciónes de impuestos, libros de peregrinaciones. Los detalles cartográficos se presentan muy simplificados, pero cuya simplificación tiene una utilidad mnemotécnica. Aral al oriente, Caspio al oeste. Al Caspio llegan dos ríos importantes y al Aral sólo uno. Las islas se representan como círculos. Las costas ficguran delineadas con regla y compás. El mundo es imagen de Dios, y Dios es armonía en los trazos, incluso en los accidentes costeros. Una costa sinuosa no puede estar presente en un libro relioso que ensalce la obra del Creador.</p>
-							<p>La caligrafía formal que anotaba los mapas (a menudo en varios idiomas) brindaba mayores oportunidades para combinarse con el estilo fluido de la pluma o el pincel del detalle del mapa, una armonía que a menudo continuaba en los bordes arabescos. Las palabras en caligrafía árabe se pueden estirar o contraer a voluntad para llenar las áreas a las que se refieren. Tal armonía entre línea y letra no era posible con el alfabeto romano. En la inagen se muestra una gran cantidad de topónimos en las costas del golfo Pérsico entres los ríos Tigris e Indo, por supuesto con la correspondiente costa simplificada y estilizada.</p>
-						</aside>
-					</section>
-					
-					<!--Técnicas y materiales-->
-					<section id="slide-8-Materiales">
-						<h3>Técnicas y Materiales</h3>
-						<div class="l-multiple" style="justify-items:center">
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-papel.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Papel y pergamino</figcaption>
-							</figure>
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-qalam.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Qalam</figcaption>
-							</figure>
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-negro.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Negro carbón</figcaption>
-							</figure>							
-						</div>
-						<div class="l-multiple" style="justify-items:center">
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-lapislazuli.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Lapislazuli - Azul</figcaption>
-							</figure>	
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-cinabrio.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Cinabrio - Rojo</figcaption>
-							</figure>	
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-cardenillo.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Cardenillo - Verde</figcaption>
-							</figure>	
-							<figure>
-								<img class="plain" style="max-height:20vh" data-src="images/islamic-materials-oroplata.jpg" alt="Non-key areas of image blurred out">
-								<figcaption>Oro y plata</figcaption>
-							</figure>																						
-						</div>
-						<aside class="notes">
-							<p>
-								Se usa papel y pergamino. La fabricación de papel se introdujo en Asia occidental desde China a mediados del siglo VIII. A partir de ese momento, en centros de la industria como Samarcanda, Bagdad y Damasco, los árabes monopolizaron la fabricación de papel en Occidente durante varios siglos. El papel de alta calidad utilizado para Los manuscritos iluminados eran muy apreciados y su distribución estaba estrechamente controlada, aunque las fuentes italianas proporcionaron más tarde un suministro más barato y más accesible. El tamaño de los mapas fue dictado por el tamaño de la página escrita en el manuscrito. Una extensión de doble página en el manuscrito cuarto de tamaño normal permitiría un mapa de aproximadamente 80 X 40 em.
-							</p>
-							<p>
-								Las pinturas y tintas en los mapas también siguieron la tradición de la iluminación de manuscritos. Las ilustraciones se dibujaron con un bolígrafo llamados (qalam) hecha con cañas en tinta de negro de carbón. Los colores opacos característicos de una joya estaban hechos de pigmentos minerales, con predominio del azul (lapislázuli) Afgano, bermellón (cinabrio), verde (cardenillo), plata y oro. No hay una referencia explícita a la adopción de convenciones de color para mapas más allá de los que ya se habían establecido en la época clásica, y con frecuencia la selección de colores de mapa sigue a la de otras ilustraciones en el manuscrito. Sin embargo, en el siglo X, <strong>al-Muqaddas</strong> establece rojo para las rutas, amarillo para la arena, verde para el mar, azul para los ríos y marrón para las montañas. Autores como al-Idrisi (fechadas desde el siglo XIV en adelante) reflejan un cumplimiento general de estas normas, pero al mismo tiempo muestran cierta originalidad en la selección de colores.
-							</p>
-						</aside>
 
-					</section>
-				
 				</section>
 
-				<section id="slide-Antedentes" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
-					<section id="slide-7.6">
-						<h2>Primeras representaciones</h2>
-						<h3>El mapa del Califa al-Ma’mun. 813-833</h3>
-						<div class="l-double" style="justify-items:center">
-							<img class="plain" style="max-width:35vw" data-src="images/islamic-map-mamun.jpg" alt="Non-key areas of image blurred out">
-							<img class="plain" style="max-height:50vh" data-src="images/islamic-map-mamun-trad.jpg" alt="No blur applied">
-						</div>
-						<p><small>Manuscrito de Ibn Fadlallah al-‘Umari, (fl.1301-1349). Topkapi Sarayi Müzesi, Istanbul A.2797, fols. 292v-293r. Diámetro 20 cm.</small></p>
 
-						<aside class="notes">
-							<p>
-								La importancia del comercio en el imperio islámico es un factor decisivo en el interés de los califas abasíes por el estudio y el conocimiento de la geografía.  Se dio cuenta de que las naciones conquistadas, sasánidas y bizantinas, tenían mucho que ofrecer.
-							</p>
-							<p>
-								Este desarrollo de la cartografía islámica está muy influencia por los conocimientos de la geografía del periodo Helenístico que llega procedente del intercambio de conocimiento con el Imperio bizantino. Entre los estudiosos musulmanes de la cartografía destacarán <strong>Al-Khwārizmī</strong>, <strong>Abū Zayd al-Balkhī</strong>, <strong>>Al-Masudi</strong>, <strong>Abu Rayhan Biruni</strong> y el cordobés <strong>Muhammad al-Idrisi</strong>.
-							</p>
-							<p>
-								Sin embargo el primer personaje con el que nos encontramos no es un geógrafo como tal, si no el califa abasí <strong>al-Ma'mun</strong> (fl.813-833), que encargó a varios geógrafos que volvieran a medir la distancia en la tierra que corresponde a un grado de meridiano celeste. Concretamente midieron la distancia entre Tadmur (Palmira) y al-Raqqah, hoy Siria. Encontraron que las ciudades estaban separadas por un grado de latitud y que la distancia del arco de meridiano entre ellas era de 56 2/3 de milla árabe (111.8 km) por grado.  La consecuencia de estos trabajos fue la definición de la milla árabe como unidad de medida en detrimento del <em> stadion</em> prodecente del mundo helenístico. En este estudio también se realizó un mapa que no se ha conservado, pero si sabemos que en su realización se utilizó la proyección de Marino de Tiro (proyección cilíndrica ortogonal) en vez de la de Ptolomeo, de quien al parecer no recogieron sus estudios sobre las proyecciones.
-							</p>
-							<p>
-								¿Por qué sabemos que es un mapa y no otra cosa? Esto podría pasar porque a estas representaciones se les llamaba <em>Ṣūrat</em>, un término que no tiene connotaciones geográficas.
-								Orientado al sur. Hemisferio norte dividido en siete zonas climáticas, cada una dividida en cuatro cuartos. Longitud (36 divisiones, 5 grados/división), nombradas por letras árabes. Topónimos: Andalusia, Egipto, India, and China. Jerusalén se omite y La Meca no aparece en el centro, al contrario que los mapas europeos que sitúan siempre su ciudad santa en el centro. Índico se dibuja como océano abierto, al contrario que Ptolomeo, conectado al gran océano occidental. Origen del Nilo en las Montañas de la Luna.
-							</p>
-						</aside>
-					</section>				
+				<section id="slide-10" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
 
-					<section id="slide-8.1">
-						<h2>Escuela de geografía de al-Balkhi</h2>
-						<h3>Abu Zayd Ahmed ibn Sahl Balkhi</h3>
-						<div class="l-double" style="justify-items:center">
-							<figure>
-							<img class="plain" style="max-height:80vh" data-src="images/islamic-map-balkhi.jpg" alt="Non-key areas of image blurred out">
-							<figcaption>LOREM IPSUM<a href="https://commons.wikimedia.org/wiki/File:Al-Ashraf_compass_and_qibla_diagram.png" target="_blank">🔗</a></figcaption>
-						</figure>
-							<div >
-								<ul>
-									<li>👳 Abu Zayd Ahmed ibn Sahl <strong>al-Balkhi</strong>.</li>
-									<li>⏳ Geógrafo persa nacido en Balkhi, 879 - 934.</li>
-									<li>Escuela Balkhi en Bagdad.</li>
-									<li><em>Kitāb al-Masālik wa-al Mamālik</em> 📕.</li>
-									<li>Interés geográfico en el mundo musulmán.</li>
-									<li>Pocos mapas han llegado del propio al-Balkhi.</li>
-									<ul>
-										<li>al-Istakhri</li>
-										<li>al-Muqaddasī</li>
-										<li>Ibn Hawqal</li>
-									</ul>
-									<li>Atlas del Islam ó Mapas KMMS</li>
-								</ul>
-							</div>
-						</div>
-						<aside class="notes">
-							<p>
-							La Escuela Balkhi en Bagdad surge como respuesta a la necesidad de disponer de un lugar para la formación y la enseñanza de la Geografía. Estudian en profundidad las gentes, costumbres y productos del mundo musulmán, con poco interés en el resto del mundo. Sus productos principales son colecciones de mapas regionales, unos veinte, acompañados de un mapa del mundo, siguiendo una distribución similar al canon ptolemaico. Posible influencia en cuanto al estipo de publicación. Los estudiosos de la cartografía islámica se dividen en dos grupos según la terminología utilizada. <strong>Konrad Miller</strong> los denomina Atlas del Islam de la escuela de Al-Balkhi, mientras que Karen Pinto los denomomina mapas KMMS por la obra de Istakhri <em>Kitāb al-Masālik wa-al Mamālik</em>, a la que añade la letra S por la palabra <em>Ṣūrat</em> que significa «imagen» en árabe. Son colecciones de mapas compuestas generalmente por 21 documentos: un mapa del mundo, tres mapas del mar mediterráneo, golfo Pérsico y el mar Caspio y 17 mapas sueltos con las provincias del califato abasí, por lo que provincias del antiguo califato omeya como Ifriqiya y Al-Ándalus a veces carecen de hojas propias. Los mapas en hojas sueltas carecen de proyección y escala uniforme y no pueden unirse entre sí.
-						</p>
-						<p>
-							Los mapas se transmiten mediante la copia de los ejemplares en <em>scriptoriums</em>, lo que con el paso del tiempo introduce variaciones y tendencias en la realización de los mapas. Al no utilizar las instrucciones de Ptolomeo que precisamente buscaban la homogeneidad en el trazado de los mapas introduciendo sistemas de proyección y tablas de coodenadas, se produce un fenómeno similar al de los Beatos, la aparición de un <em>stemma</em> de documentos con distintas tipologías.
-						</p>
-						</aside>
+					<section id="slide-10.0">
+
+						<h3>Primeras representaciones</h3>
+
+					</section>					
+
+					<section id="slide-10.1" data-markdown="keynote/010-01-mamun.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
-					<section id="slide-8.1">
-						<h3>Kitāb al-Masālik wa-al Mamālik. Mapamundi.</h3>
-						
-						<div class="l-double" style="justify-items:center">
-							<figure>
-							<img class="plain" style="max-height:50vh" data-src="images/islamic-map-balkhi-climas.jpg" alt="Non-key areas of image blurred out">
-							<figcaption>Topkapi Sarayl Miizesi Kiitiiphanesi, Istanbul (B. 411, fols. 141b-142a)<a href="https://www.myoldmaps.com/early-medieval-monographs/2142-balkhi-world-maps/2142-balkhi.pdf" target="_blank">🔗</a></figcaption>
-						</figure>
-							<div >
-								<ul>
-									<li>Mide 35.5 x 48 cm. Tinta y oro sobre papel.</li>
-									<li>Escuela Balkhi en Bagdad.</li>
-									<li><em>Kitāb al-Masālik wa-al Mamālik</em> 📕.</li>
-									<li>Interés geográfico en el mundo musulmán.</li>
-									<li>Pocos mapas han llegado del propio al-Balkhi.</li>
-									<ul>
-										<li>al-Istakhri</li>
-										<li>al-Muqaddasī</li>
-										<li>Ibn Hawqal</li>
-									</ul>
-									<li>Atlas del Islam ó Mapas KMMS</li>
-								</ul>
-							</div>
-						</div>
-						<aside class="notes">
-							Este en concreto es un mapa que muestra la disposición de los climas de la Tierra. Mide 35.5 x 48 cm y está realizado con tinta y oro sobre papel. Se encuentra orientado al sur. Hereda características de los mapas de Ptolomeo, como por ejemplo la simbolización de las fuentes del Nilo. El trabajo fue patrocinado por los gobernadores samánidas, por lo que muestra abundante toponimia en la zona persia y escasa o ninguna en el resto. En la izquierda, un enorme entrante de mar representa al oceáno Índico y al golfo Pérsico, mientras que el mar Rojo se simboliza con una pequeña franja que conecta con la cuenca mediterránea, simbolizada con otra gran entrada de mar en la parte derecha. Unas lineas de puntos definen las divisiones climáticas.
-						</aside>
+
+					<section id="slide-10.2a" data-markdown="keynote/010-02a-khwarizmi.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
-			</section>
 
-
-				<!--Ibal Istakhri-->
-				<section id="slide-Mapas-Istakhri" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
-					<section id="slide-8.0-Presentacion">
-						<h2>al-Istakhri</h2>
-						<ul>
-							<li>👳 Abu Ishaq Ibrahim ibn Muhammad al-Fārisī <strong>al-Istakhrī</strong></li>
-							<li>⏳ Istakhr - Baghdad, ca.952</li>
-							<li>Viajero y geógrafo</li>
-							<li>Miembro de la Escuela Balkhi</li>
-						</ul>
+					<section id="slide-10.2b" data-markdown="keynote/010-02b-balkhi.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
-					<section id="slide-9.1">
-						<h3>Kitāb al-masālik wa-'l-mamālik (KMMS)</h3>
-						<div class="stack-fragmentos">
+				
 
-							<div class="fragment stack-fragmento-elem fade-out"  data-fragment-index="0">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri-gotha.jpg" alt="Lorem Ipsum">
-										<figcaption>KMMS, Ṣūrat Al-Arḍ (Imagen del mundo), AH 569/[1173] - Forschungsbibliothek in Gotha. MS. Ar. 1521, fols. 4- 5<a href="https://archive.thulb.uni-jena.de/ufb/receive/ufb_cbu_00011296?derivate=ufb_derivate_00010485" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>
-								<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1173.</li>
-										<li>📜 KMMS, <em>Ṣūrat Al-Arḍ</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 24.6 x 18.8 cm</li>
-										<li>🏛 Forschungsbibliothek, Gotha</li>
-									</ul>
-										<p>Kitāb al-masālik wa-'l-mamālik (Libro de rutas y provincias), KMMS. Segundo manuscrito más antiguo que incluye un compendio de mapas. ⏳ 1086. Los mapas siguen el modelo cartográfico de <strong>al-Istakhrī</strong>, que realizó durante el siglo anterior. El ejemplar correspondiente al mapa mundi de Gotha está muy deteriorado.</p>		
-								</div>
-							</div>
+				</section>
+					
+				<!--al Istakhri-->
+				<section id="slide-11-Istakhri" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
 
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="0">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri.jpg" alt="Lorem Ipsum">
-										<figcaption>KMMS, Ṣūrat Al-Arḍ (Imagen del mundo), 589/[1193] - Leiden University Libraries. Cod. Or. 3101, fols. 4- 5<a href="https://digitalcollections.universiteitleiden.nl/view/item/1577846#page/3/mode/2up" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>
-									<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1193.</li>
-										<li>📜 KMMS, <em>Ṣūrat Al-Arḍ</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 32 x 22 cm.</li>
-										<li>🏛 Leiden University Libraries</li>
-									</ul>
-									<p> A principios del siglo XX a raiz de los trabajos de J.H. Kramer, estos compendios de texto y mapas reciben el nombre de Atlas del Islam. Recientemente a ra´zi de los trabajos de Karen C. Pinto, se ha extensido entre los estudios el acrónimo KMMS para referirise a estos documentos. En la terminología de J.H. Kramer, este mapa corresponde a Istakhrī I.</p>
-								</div>
-							</div>
-
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="1">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri2.jpg" alt="Lorem Ipsum">
-										<figcaption>KMMS, Ṣūrat Al-Arḍ (Imagen del mundo), 878/[1473] -  Sulemaniye Camii Kutuphanesi, Istanbul, A.S. 2971a, fol. 3a<a href="https://digitalcollections.universiteitleiden.nl/view/item/1577846#page/3/mode/2up" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>
-									<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1473 AD.</li>
-										<li>📜 KMMS, <em>Ṣūrat Al-Arḍ</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 Diámetro 19.5 cm.</li>
-										<li>🏛 Sülemaniye Kütüphanesi, Istanbul</li>
-									</ul>
-									<p>Esta versión de la <em>Ṣūrat Al-Arḍ</em> sigue el prototipo de representación cartográfica de <strong>al-Istakhrī</strong> pero con algunas variaciones, por lo que en la terminología de J.H. Kramer, este mapa corresponde a <strong>al-Istakhrī II</strong>. Desaparecen las islas. Mayor conexión con la Cosmogonía. Los dos mares principales llegando desde el este (Índico) y el oeste (Mediterráneo) hacia el centro, donde se separan úncamente por una pequeña y estrecha barrera terrestre: el <em>Barzakh</em>.</p>
-								</div>
-							</div>
-
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="2">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri2-trad.jpg" alt="Lorem Ipsum">
-										<figcaption>KMMS, Ṣūrat Al-Arḍ (Imagen del mundo), 878/[1473] -  Transcripción<a href="https://digitalcollections.universiteitleiden.nl/view/item/1577846#page/3/mode/2up" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>
-									<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1473 AD.</li>
-										<li>📜 KMMS, <em>Ṣūrat Al-Arḍ</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 Diámetro 19.5 cm.</li>
-										<li>🏛 Sülemaniye Kütüphanesi, Istanbul</li>
-									</ul>
-									<p>Esta versión de la <em>Ṣūrat Al-Arḍ</em> sigue el prototipo de representación cartográfica de <strong>al-Istakhrī</strong> pero con algunas variaciones, por lo que en la terminología de J.H. Kramer, este mapa corresponde a <strong>al-Istakhrī II</strong>. Desaparecen las islas. Mayor conexión con la Cosmogonía. Los dos mares principales llegando desde el este (Índico) y el oeste (Mediterráneo) hacia el centro, donde se separan úncamente por una pequeña y estrecha barrera terrestre: el <em>Barzakh</em>.</p>
-								</div>
-							</div>							
-
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="3">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri-mediterranean-gotha.jpg" alt="Lorem Ipsum">
-										<figcaption>KMMS, Baḥr ar-rūm. Mediterráneo, AH 569/[1173] - Forschungsbibliothek in Gotha. MS. Ar. 1521, fols. 24r<a href="https://archive.thulb.uni-jena.de/ufb/receive/ufb_cbu_00011296?derivate=ufb_derivate_00010485" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>						
-								<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1173.</li>
-										<li>📜 KMMS, <em>Baḥr ar-rūm</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 24.6 x 18.8 cm</li>
-										<li>🏛 Forschungsbibliothek, Gotha</li>
-									</ul>
-									<p> Las tres islas principales: Sicilia, Creta y Chipre. Estrecho de Gibraltar (Jabal al-Qilāl) como un montículo que emerge del mar. El delta del Nilo se representa con dos islas: Tinnis and Damyāt.</p>
-								</div>
-							</div>
-
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="4">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri-mediterranean.jpg" alt="Lorem Ipsum">
-										<figcaption>KMMS, Baḥr ar-rūm, Mediterráneo, 589/[1193] - Leiden University Libraries. Cod. Or. 3101, fols. 16-18<a href="https://digitalcollections.universiteitleiden.nl/view/item/1577846#page/3/mode/2up" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>						
-								<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1193.</li>
-										<li>📜 KMMS, <em>Baḥr ar-rūm</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 32 x 22 cm.</li>
-										<li>🏛 Leiden University Libraries</li>
-									</ul>
-									<p> Las tres islas principales: Sicilia, Creta y Chipre. Estrecho de Gibraltar como un montículo que emerge del mar. </p>
-								</div>
-							</div>
-
-							<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="5">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri-persico-gotha.jpg" alt="Lorem Ipsum">
-										<figcaption>Baḥr Fārs, Océano Indico, 569/[1173] - Forschungsbibliothek in Gotha. MS. Ar. 1521, fols. 4- 5<a href="https://archive.thulb.uni-jena.de/ufb/receive/ufb_cbu_00011296?derivate=ufb_derivate_00010485" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>						
-								<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1173.</li>
-										<li>📜 KMMS, <em>Baḥr Fārs</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 24.6 x 18.8 cm</li>
-										<li>🏛 Forschungsbibliothek, Gotha</li>
-									</ul>
-									<p>Tres islas Sri Lanka, Awal (Bahrain) y Laft (Qishm, estrecho de Ormuz). China e India en una misma península con el Pico Adán (Sri Lanka) dibujado. Simetría con la hoja mediterránea.</p>
-								</div>
-							</div>
-
-							<div class="fragment stack-fragmento-elem fade-in"  data-fragment-index="6">
-								<div class="l-simple">
-									<figure>
-										<img class="full" style="max-height:65vh" data-src="images/islamic-map-balkhi-istakhri-persico.jpg" alt="Lorem Ipsum">
-										<figcaption> Baḥr Fārs, Océano Indico. 589/[1193] - Leiden University Libraries. Cod. Or. 3101, fols. 30-31<a href="https://digitalcollections.universiteitleiden.nl/view/item/1577846#page/3/mode/2up" target="_blank">🔗</a></figcaption>
-									</figure>
-								</div>						
-								<div class="sidebarRight">
-									<ul>
-										<li>⏳ Manuscrito, 1193.</li>
-										<li>📜 KMMS, <em>Baḥr Fārs</em> </li>
-										<li>👳 <strong>al-Istakhrī</strong></li>
-										<li>📏 32 x 22 cm.</li>
-										<li>🏛 Leiden University Libraries</li>
-									</ul>
-									<p>Las tres islas dibujadas son (Jark, Irán), Awal (Bahrain) y Laft (Qishm, estrecho de Ormuz). Los ríos, Tigris hacia arriba, Indo hacia abajo. Entrante superior Mar Rojo. Debajo, golfo Pérsico.</p>
-								</div>
-							</div>							
-
-						</div>
-						<aside class="notes">
-							<p>
-								El viajero y cartógrafo Abu Ishaq Ibrahim ibn Muhammad al-Farisi <strong>al-Istakhrī</strong> pertenece a la escuela cartográfica de Balkhi. No hay consenso sobre su origen aunque se le considera nacido en Persia. Su obra más importante es <em>Kitāb al-Masālik wa-al Mamālik</em>, el Libro de las Rutas y Reinos en donde introduce el empleo de mapas para apoyar las descripciones geográficas narradas. Karen Pinto los denomina mapas KMMS, y añade la letra S al final por la palabra  árabe surat que significa "imagen" en árabe. Estos compendios de mapas son el prototipo de la escuela cartográfica de Balkhi. 
-							</p>
-							<p>
-								Los mapas de la ecúmene KMMS se caracterizan por la forma de doble disco o circular o rectangular orientado al sur. El océano circundante <em>Baḥr al-Muḥīṭ</em> rodea el mundo conocido que comprende África, Asia y Europa, los cuatro mares y generalmente siete ríos principales. África tiene una característica forma de media Luna con el extremo inferior apuntando al este (parte izquierda). Los mares se dibujan en los mapas medievales islámicos como formas perfectas y suaves sin costas irregulares, como corresponde a su naturaleza divina. Este análisis de los mares en la imaginación cartográfica islámica reafirma la conexión entre la religión y la geografía tan importante spara la cartografía islámica. 
-							</p>
-							<p>
-								De la tradición geográfica heredada de Ptolomeo, el mundo tenía forma de una esfera y ocupaba 180 grados de la tierra. Como el lado más alejado de una esfera mundial (un mundo al revés) era prácticamente inconcebible, solo se pensaba que un hemisferio era habitable. Esto podría ser fácilmente "proyectado" en un área plana y representado por un círculo. Por lo tanto, <strong>al-Istakhrī</strong> representaba al mundo como un círculo rodeado por el océano circundante, con los dos mares principales llegando desde el este (Índico) y el oeste (Mediterráneo) hacia el centro, donde se separan úncamente por una pequeña y estrecha barrera terrestre: el <em>Barzakh</em> citado en el Corán, que significa partición o barrera, y que en el Libro Sagrado se refiere a la separación entre la vida y la muerte. Esto se aprecia sobre todo en los mapas correspondientes a la tipología <em>al-Istakhrī II</em>.
-							</p>
-							<p>
-								Los KMMS se componen de los siguientes mapas:
-								<ul>
-									<li>Ecúmene: (1) Ṣūrat Al-Arḍ.</li>
-									<li>Mares: (3) Baḥr Fārs (océano Índico); (7) Baḥr ar-rūm (mar Mediterráneo); (17) Mar Caspio;.</li>
-									<li>Provincias árabes:  (2) Arabia;  (4) al-Maghrib (Norte de áfrica); (5) Egipto; (6) Siria.</li>
-									<li>Provicnias persas:  (8) Balad al-ǧazīra (Norte de Mesopotamia); (9) Iraq ; (10) Khuzistan; (11) Fars;	(12) Kirman; (13) Sind; (14) Armenia, Arran (Alvan)  y Azerbaijan; (15) Jibal (central Persian mountains); (16)	Daylam y sus vecinos (Rayy, Tabaristan); (18) Persian Desert; (19) Sijistan; (20) Khurasan; (21) Transoxiana.</li>
-								</ul> 
-								Los mapas regionales de las provincias no están pensados para conectar entre sí formando un mapa mayor, ya que poseen diferentes escalas. Muestran divisiones administrativas, rutas postales y comerciales, indicando las distancias en parasangs, algo así como 4 millas. Se indican las principales ciudades. El propósito básico de los mapas (especialmente los de las áreas de habla persa) parece ser incorporar las rutas de caravanas en toda la provincia, con todas las etapas marcadas. Esto es más notable en el mapa del desierto de <strong>Khurasan</strong>, donde se da el límite del desierto con las aldeas limítrofes y los oasis marcados a su alrededor. Luego, las líneas rectas unen esos lugares en lados opuestos donde fluye el tráfico, y el nombre de la ruta se escribe en la línea así dibujada. Tanto Al-Balkhi como al-Istakhri trabajaron en el siglo X bajo el patrocinio de los emires de la dinastía samánida, lo que explica el esmero en la realización de los mapas regionales de las zonas de habla persa.
-							</p>
-							<p>
-								El entrante que representa el Mediterráneo tiene forma de sandalia a escala regional. Las islas de Sicilia, Creta y Chipre se simbolizan con tres círculos. Los mares Aral y Caspio se indican con dos cículos aislados en medio de Asia.
-							</p>
-							<p>Mapa del océano Índico es conocido también en la cartografía islámica como <em>Mar Persa</em>. El este arriba. Las tres islas dibujadas son (Jark, Irán), Awal (Bahrain) y Laft (Qishm, estrecho de Ormuz). Los ríos, Tigris hacia arriba, Indo hacia abajo. Entrante superior Mar Rojo. Debajo, golfo Pérsico. China e India se unen en una misma península, con el Pico Adan dibujado, aunque este se encuentra en la isla de Sri Lanka. Se busca dibujar el índico con elementos similares al 
-							</p>							
-							<p>
-								La naturaleza divina del mundo hace que no se dibujen accidentes costeros. Islas redondas, costas con tiralíneas y suavizadas. Ríos rectos. En el golfo Pérsico tres islas circulares representan Sri Lanka, Awal o Bahrain y Laft o isla de Qeshm y dos segmentos representan el Tigris y el Eúfrates. En búsqueda de la simetría, que simboliza lo divino, La India y China se representan en una estrecha península, que contrata con la península Arábiga al otro lado. Por la misma simetría, la India tiene una gran montaña, Adam's Peak, que sirve de contrapeso a Jabal al-Qilal cerca del Estrecho de Gibraltar.
-							</p>
-							<p>
-								Gran variedad de colores. Azules opacos para los mares, marrones rojizos para las montañas y rosas pálidos o verdes de cobre oxidados para los desiertos, con tinta roja como color preferido para los contornos de las masas de tierra y el territorio.
-							</p>
-
-						</aside>
+					<section id="slide-11.1" data-markdown="keynote/011-01-istakhri.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
 
 				</section><!-- Final slide 8-->
 
 				<!--Ibn Hawqal-->
-				<section id="slide-Mapas-IbnHawqal" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
-					<section>
-						<h2>Ibn Ḥawqal</h2>
-						<ul>
-							<li>👳 Muḥammad Abū’l-Qāsim <strong>Ibn Ḥawqal</strong>.</li>
-							<li>⏳ Nisibis, 🇹 , 943 -988</li>
-							<li>Geógrafo, escritor.</li>
-							<li>Miembro de la Escuela Balkhi.</li>
-						</ul>
-					</section>	
-
-					<section>
-					<h3>Kitāb Ṣūrat al-’Arḍ (La Faz de la Tierra)</h3>
-					<div class="stack-fragmentos">
-
-						<div class="fragment stack-fragmento-elem fade-out"  data-fragment-index="0">
-							<div class="l-simple">
-								<figure>
-									<img class="full" style="max-height:65vh" data-src="images/islamic-map-ibnHawqal.jpg" alt="Lorem Ipsum">
-									<figcaption> Topkapi Sarayi Müzesi - Istambul - Ahmet 3346, fols. 3b-4a<a href="http://www.myoldmaps.com/early-medieval-monographs/213-ibn-hawqals-world-map/213-ibn-hawqal.pdf" target="_blank">🔗</a></figcaption>
-								</figure>
-							</div>						
-							<div class="sidebarRight">
-								<ul>
-									<li>⏳ Ms. 1086.</li>
-									<li><em>Ṣūrat al-’Arḍ</em></li>
-									<li>👳 <strong>Ibn Ḥawqal</strong></li>
-									<li>📏 Diámetro 36.5 cm</li>
-									<li>🏛 İstanbul Topkapı Sarayı Müzesi</li>
-								</ul>
-								<p>Manuscrito más antiguo que incluye un compendio de mapas. ⏳ 1086. Tipología <strong>Ibn Hawqal I</strong> según la terminología de J.H. Kramers.</p>
-							</div>
-						</div>
-
-						<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="0">
-							<div class="l-simple">
-								<figure>
-									<img class="full" style="max-height:65vh" data-src="images/islamic-map-ibnHawqal-trad.png" alt="Lorem Ipsum">
-									<figcaption> Kitab surat al-ard - Traducción<a href="http://www.myoldmaps.com/early-medieval-monographs/213-ibn-hawqals-world-map/213-ibn-hawqal.pdf" target="_blank">🔗</a></figcaption>
-								</figure>
-							</div>
-							<div class="sidebarRight">
-								<ul>
-									<li>⏳ Ms. 1086.</li>
-									<li>👳 <strong>Ibn Ḥawqal</strong>.</li>
-									<li>📏 Diámetro 36.5 cm</li>
-									<li>🏛 İstanbul Topkapı Sarayı Müzesi.</li>
-								</ul>
-								<p>Incluye abundante toponimia 👉 posible origen ptolemaico. Hidrografía fluvial en rojo. Nilo con origen en las Montañas de la Luna. Clara división de las provincias persas.</p>
-							</div>													
-						</div>
-
-						<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="1">
-							<div class="l-simple">
-								<figure>
-									<img class="full" style="max-height:65vh" data-src="images/islamic-map-ibnHawqal1-mediterraneo.jpg" alt="Lorem Ipsum">
-									<figcaption>KMMS, Ṣūrat Baḥr ar-rūm. Mediterráneo. Siglo XV-XVI - İstanbul Topkapı Sarayı Müzesi, MS 6527/A 3346, ff. 20r-20v<a href="https://docplayer.es/23058626-Rebasando-los-pilares-de-hercules-el-estrecho-de-gibraltar-y-sus-ciudades-en-la-cartografia-historica.html" target="_blank">🔗</a></figcaption>
-								</figure>
-							</div>
-							<div class="sidebarRight">
-								<ul>
-									<li>⏳ Manuscrito, Siglo XI.</li>
-									<li>📜 Mar Mediterráneo.</li>
-									<li>👳 <strong>Ibn Ḥawqal</strong>.</li>
-									<li>🏛 İstanbul Topkapı Sarayı Müzesi.</li>
-								</ul>
-								<p>En la terminología de J.H. Kramer, este mapa corresponde a <strong>Ibn Ḥawqal I</strong>.</p>
-							</div>													
-						</div>
-
-						<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="2">
-							<div class="l-simple">
-								<figure>
-									<img class="full" style="max-height:65vh" data-src="images/islamic-map-ibnHawqal1-mediterraneo-trad.jpg" alt="Lorem Ipsum">
-									<figcaption>KMMS, Ṣūrat Baḥr ar-rūm. Mediterráneo. Siglo XV-XVI - Transcripción<a href="https://journals.openedition.org/belgeo/8801?gathStatIcon=true&lang=en" target="_blank">🔗</a></figcaption>
-								</figure>
-							</div>
-							<div class="sidebarRight">
-								<ul>
-									<li>⏳ Manuscrito, 479 AH / 1086 AD.</li>
-									<li>📜Mar Mediterráneo.</li>
-									<li>👳 <strong>Ibn Ḥawqal</strong>.</li>
-									<li>🏛 İstanbul Topkapı Sarayı Müzesi.</li>
-								</ul>
-								<p>En la terminología de J.H. Kramer, este mapa corresponde a <strong>Ibn Ḥawqal I</strong>.</p>
-							</div>													
-						</div>						
-
-						<div class="fragment stack-fragmento-elem fade-in-then-out"  data-fragment-index="3">
-							<div class="l-simple">
-								<figure>
-									<img class="full" style="max-height:65vh" data-src="images/islamic-map-ibnHawqal2-mediterraneo.jpg" alt="Lorem Ipsum">
-									<figcaption>KMMS, Ṣūrat Baḥr ar-rūm. Mediterráneo. 479 AH / 1086 AD - İstanbul Topkapı Sarayı Müzesi, MS Ahmet 3346, ff. 58b<a href="https://journals.openedition.org/belgeo/8801?gathStatIcon=true&lang=en" target="_blank">🔗</a></figcaption>
-								</figure>
-							</div>
-							<div class="sidebarRight">
-								<ul>
-									<li>⏳ Manuscrito, Siglo XI.</li>
-									<li>📜Mar Mediterráneo.</li>
-									<li>👳 <strong>Ibn Ḥawqal</strong>.</li>
-									<li>🏛 İstanbul Topkapı Sarayı Müzesi.</li>
-								</ul>
-								<p>En la terminología de J.H. Kramer, este mapa corresponde a <strong>Ibn Ḥawqal II</strong>.</p>
-							</div>													
-						</div>	
-
-						<div class="fragment stack-fragmento-elem fade-in"  data-fragment-index="4">
-							<div class="l-simple">
-								<figure>
-									<img class="full" style="max-height:65vh" data-src="images/islamic-map-ibnHawqal3-mediterraneo.jpg" alt="Lorem Ipsum">
-									<figcaption>KMMS, Ṣūrat Baḥr ar-rūm. Mediterráneo. Siglo XV-XVI - Sulemaniye Camii Kutuphanesi, Istanbul<a href="https://www.aramcoworld.com/Articles/November-2019/Messages-in-the-Maps" target="_blank">🔗</a></figcaption>
-								</figure>
-							</div>						
-							<div class="sidebarRight">
-								<ul>
-									<li>⏳ Manuscrito, Siglo XV-XVI.</li>
-									<li>📜Mar Mediterráneo.</li>
-									<li>👳 <strong>Ibn Ḥawqal</strong>.</li>
-									<li>🏛 Sulemaniye Camii Kutuphanesi, Istanbul.</li>
-								</ul>
-								<p>En la terminología de J.H. Kramer, este mapa corresponde a <strong>Ibn Ḥawqal III</strong>.</p>
-							</div>								
-						</div>
-
-					</div>
-					<aside class="notes">
-						<p>
-							El mapa de Ibn Ḥawqal está orientado al sur y muestra el mundo en forma de disco rodeado por un océano en el que aparecen dos grandes entrantes: el mar Mediterráneo y el conjunto formado por el mar Arábigo, el golfo Pérsico y el mar Rojo. Tanto el golfo Pérsico como el mar Mediterráneo carecen de las islas circulares, características de los mapas de Al-Istakhri. El extremo de África aparece apuntando al este (izquierda del mapa), error que los cartógrafos chinos fueron los primeros en resolver. Delimita las provincias del imperio islámico, utilizando toponimia en árabe, destacando Al Andalus en el extremo más occidental (derecha del mapa) . Muestra el largo trazado del río Nilo partiendo de las Montañas de la Luna, característica de inspiración ptolemaica. Es un mapa esquemático, sin escalas ni indicaciones sobre las distancias entre ciudades. Sus descripciones eran exactas y de mucha ayuda para los viajeros. Ṣūrat al-’Arḍ incluyó una descripción detallada de la España musulmana, de Italia y particularmente de Sicilia, tierra de la que critica muchos aspectos, como la falta de inteligencia de sus habitantes y desconocimiento de la ley islámica.2​ Ibn Hawqal mencionó que la zona de Fraxinet (La Garde-Freinet) era cultivada profusamente por los habitantes musulmanes, y se les acredita con un número de innovaciones agrícolas y de pesca para la región.
-						</p>
-						<p>
-							Muḥammad Abū’l-Qāsim <strong>Ibn Ḥawqal</strong> fue un viajero y geógrafo del siglo X nacido en la ciudad de Nisibis en Mesopotamia. Pertenece a la escuela Balkhi. Partió en el año 943 a un viaje de más de 30 años que le llevó a recónditos lugares de Asia y África, descubriendo que la gente vivía en zonas calificadas como inhabitadas por los textos griegos. Su obra más famosa es Kitab sūrat al-’Arḍ, "La faz de la Tierra", en la que incluyó una descripción detallada de la España musulmana, de Italia y particularmente de Sicilia, a la que viajó en el 973.
-						</p>
-						<p>
-							En el mapa del Mediterráneo de tipología Ibn Hawqal III, la orografía desaparece y tanto España como el norte de África tienen trazada su hidrografía. El Mediterráneo oriental no tiene forma de fondo de saco, a diferencia de las versiones anteriores. Hay una península representando a Italia y otra para Grecia. La única cordillera que aparece son los Alpes, se dibujan las islas de Córcega y Chipre, y la península de Anatolia aparece pero mal orientada.
-						</p>
-
-					</aside>					
-
+				<section id="slide-12-IbnHawqal" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
+				
+					<section id="slide-12.1" data-markdown="keynote/012-01-ibnhawqal.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
 				
 				</section><!-- Final Ibn Ḥawqal-->
 
 
 				<!--al Idrisi-->
-				<section id="block-alIdrisi" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
-					<section id="slide-Idrisi-Presentacion">
-						<h2>al-Idrīsī</h2>
-						<div class="l-TwoThree" style="justify-items:center">
-							<figure>
-							<img class="plain" style="max-height:100vh" data-src="images/alidrisi-imagen.jpg" alt="Non-key areas of image blurred out">
-							<figcaption>LOREM IPSUM<a href="https://commons.wikimedia.org/wiki/File:Al-Ashraf_compass_and_qibla_diagram.png" target="_blank">🔗</a></figcaption>
-						</figure>
-							<div style="max-width: 100%;">
-								<ul>
-									<li>👳 Abū Abd Allāh Muhammad <strong>al-Idrīsī</strong>.</li>
-									<li>⏳ Ceuta, 1110 - Sicilia, ca.1165 ó 1175.</li>
-									<li>Viajero, cartógrafo y geógrafo.</li>
-									<li>Miembro de la Escuela Balkhi</li>
-								</ul>
-							</div>
-						</div>
+				<section id="slide-13-Idrisi" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
 
+					<section id="slide-13.1" data-markdown="keynote/013-01-idrisi.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
-					<section id="slide-9.1">
-
-					</section>
+					
 				</section>
 
-				<!--al Idrisi-->
-				<section id="block-BookCuriosities" data-background-transition="zoom" data-background="images/bgintro-islamic.jpg" data-state="intro-islamic">
-					<section id="slide-BookCuriosities-Presentacion">
-						<h2>Book of Curiosities</h2>
-						<ul>
-							<li>👳 Abu Ishaq Ibrahim ibn Muhammad al-Fārisī <strong>al-Istakhrī</strong></li>
-							<li>⏳ Istakhr - Baghdad, ca.952</li>
-							<li>Viajero y geógrafo</li>
-							<li>Miembro de la Escuela Balkhi</li>
-						</ul>
-					</section>
-					<section id="slide-9.1">
+				<!--Book of Curiosities-->
+				<section id="slide-14-Curiosities" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
 
+					<section id="slide-14.1" data-markdown="keynote/014-01-curiosities.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
 					</section>
+					
+				</section>
+
+				<!--Piri Reis-->
+				<section id="slide-15-PiriReis" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120%>
+
+					<section id="slide-15.1" data-markdown="keynote/015-01-pirireis.md" data-separator="^#---------#" data-separator-vertical="^{---------}" 	data-separator-notes="^Note:" data-charset="utf-8">
+					</section>
+					
 				</section>
 				
-				<section id="slide-100" data-markdown>
-						## CONCLUSIONES
+				
+				<section id="slide-16-conclusiones" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120% data-markdown>
+					## CONCLUSIONES
 				</section>
-				<section>
-						<h2>Gracias por su atención</h2>
-						<p>
-							Turno de preguntas
-						</p>
+
+				<section id="slide-17-biblio" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120% data-markdown>
+					## Bibliografía
+				</section>
+
+				<section id="slide-18-agradecimientos" data-background-transition="zoom" data-background-image="images/bgintro-islamic.jpg" data-background-opacity=0.25 data-background-size=120% data-markdown>
+						### Gracias por su atención
+
+						Turno de preguntas
 				</section>		
 				
 			</section><!-- Final Keynote-->
 		</div>
 	</div>
 
-		<div class="keynoteLogoUp">
-			<img src="images/esquina.jpg">
-		</div>
+	<div class="keynoteLogoUp">
+		<img src="images/esquina.jpg">
+	</div>
 
-
-
-
-
-
-		<script src="js/reveal.js"></script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
 			Reveal.initialize({
+				// Display presentation control arrows
+				controls: true,
+
+				// Help the user learn the controls by providing hints, for example by
+				// bouncing the down arrow when they first encounter a vertical slide
+				controlsTutorial: true,
+
+				// Determines where controls appear, "edges" or "bottom-right"
+				controlsLayout: 'bottom-right',
+
+				// Visibility rule for backwards navigation arrows; "faded", "hidden"
+				// or "visible"
+				controlsBackArrows: 'faded',
+
+				// Display a presentation progress bar
+				progress: true,
+
+				// Display the page number of the current slide
+				// - true:    Show slide number
+				// - false:   Hide slide number
+				//
+				// Can optionally be set as a string that specifies the number formatting:
+				// - "h.v":   Horizontal . vertical slide number (default)
+				// - "h/v":   Horizontal / vertical slide number
+				// - "c":   Flattened slide number
+				// - "c/t":   Flattened slide number / total slides
+				//
+				// Alternatively, you can provide a function that returns the slide
+				// number for the current slide. The function should take in a slide
+				// object and return an array with one string [slideNumber] or
+				// three strings [n1,delimiter,n2]. See #formatSlideNumber().
+				
+				slideNumber: false,	//slideNumber: "c/t",
+
+				// Can be used to limit the contexts in which the slide number appears
+				// - "all":      Always show the slide number
+				// - "print":    Only when printing to PDF
+				// - "speaker":  Only in the speaker view
+				showSlideNumber: 'all',
+
+				// Use 1 based indexing for # links to match slide number (default is zero
+				// based)
+				hashOneBasedIndex: false,
+
+				// Add the current slide number to the URL hash so that reloading the
+				// page/copying the URL will return you to the same slide
 				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/math/math.js'},
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
+
+				// Flags if we should monitor the hash and change slides accordingly
+				respondToHashChanges: true,
+
+				// Push each slide change to the browser history.  Implies `hash: true`
+				history: false,
+
+				// Enable keyboard shortcuts for navigation
+				keyboard: true,
+
+				// Optional function that blocks keyboard events when retuning false
+				//
+				// If you set this to 'foucsed', we will only capture keyboard events
+				// for embdedded decks when they are in focus
+				keyboardCondition: null,
+
+				// Disables the default reveal.js slide layout (scaling and centering)
+				// so that you can use custom CSS layout
+				disableLayout: false,
+
+				// Enable the slide overview mode
+				overview: true,
+
+				// Vertical centering of slides
+				center: true,
+
+				// Enables touch navigation on devices with touch input
+				touch: true,
+
+				// Loop the presentation
+				loop: false,
+
+				// Change the presentation direction to be RTL
+				rtl: false,
+
+				// Changes the behavior of our navigation directions.
+				//
+				// "default"
+				// Left/right arrow keys step between horizontal slides, up/down
+				// arrow keys step between vertical slides. Space key steps through
+				// all slides (both horizontal and vertical).
+				//
+				// "linear"
+				// Removes the up/down arrows. Left/right arrows step through all
+				// slides (both horizontal and vertical).
+				//
+				// "grid"
+				// When this is enabled, stepping left/right from a vertical stack
+				// to an adjacent vertical stack will land you at the same vertical
+				// index.
+				//
+				// Consider a deck with six slides ordered in two vertical stacks:
+				// 1.1    2.1
+				// 1.2    2.2
+				// 1.3    2.3
+				//
+				// If you're on slide 1.3 and navigate right, you will normally move
+				// from 1.3 -> 2.1. If "grid" is used, the same navigation takes you
+				// from 1.3 -> 2.3.
+				navigationMode: 'default',
+
+				// Randomizes the order of slides each time the presentation loads
+				shuffle: false,
+
+				// Turns fragments on and off globally
+				fragments: true,
+
+				// Flags whether to include the current fragment in the URL,
+				// so that reloading brings you to the same fragment position
+				fragmentInURL: true,
+
+				// Flags if the presentation is running in an embedded mode,
+				// i.e. contained within a limited portion of the screen
+				embedded: false,
+
+				// Flags if we should show a help overlay when the question-mark
+				// key is pressed
+				help: true,
+
+				// Flags if it should be possible to pause the presentation (blackout)
+				pause: true,
+
+				// Flags if speaker notes should be visible to all viewers
+				showNotes: false,
+
+				// Global override for autolaying embedded media (video/audio/iframe)
+				// - null:   Media will only autoplay if data-autoplay is present
+				// - true:   All media will autoplay, regardless of individual setting
+				// - false:  No media will autoplay, regardless of individual setting
+				autoPlayMedia: null,
+
+				// Global override for preloading lazy-loaded iframes
+				// - null:   Iframes with data-src AND data-preload will be loaded when within
+				//           the viewDistance, iframes with only data-src will be loaded when visible
+				// - true:   All iframes with data-src will be loaded when within the viewDistance
+				// - false:  All iframes with data-src will be loaded only when visible
+				preloadIframes: null,
+
+				// Can be used to globally disable auto-animation
+				autoAnimate: true,
+
+				// Optionally provide a custom element matcher that will be
+				// used to dictate which elements we can animate between.
+				autoAnimateMatcher: null,
+
+				// Default settings for our auto-animate transitions, can be
+				// overridden per-slide or per-element via data arguments
+				autoAnimateEasing: 'ease',
+				autoAnimateDuration: 1.0,
+				autoAnimateUnmatched: true,
+
+				// CSS properties that can be auto-animated. Position & scale
+				// is matched separately so there's no need to include styles
+				// like top/right/bottom/left, width/height or margin.
+				autoAnimateStyles: [
+					'opacity',
+					'color',
+					'background-color',
+					'padding',
+					'font-size',
+					'line-height',
+					'letter-spacing',
+					'border-width',
+					'border-color',
+					'border-radius',
+					'outline',
+					'outline-offset'
+				],
+
+				// Controls automatic progression to the next slide
+				// - 0:      Auto-sliding only happens if the data-autoslide HTML attribute
+				//           is present on the current slide or fragment
+				// - 1+:     All slides will progress automatically at the given interval
+				// - false:  No auto-sliding, even if data-autoslide is present
+				autoSlide: 0,
+
+				// Stop auto-sliding after user input
+				autoSlideStoppable: true,
+
+				// Use this method for navigation when auto-sliding (defaults to navigateNext)
+				autoSlideMethod: null,
+
+				// Specify the average time in seconds that you think you will spend
+				// presenting each slide. This is used to show a pacing timer in the
+				// speaker view
+				defaultTiming: null,
+
+				// Enable slide navigation via mouse wheel
+				mouseWheel: false,
+
+				// Opens links in an iframe preview overlay
+				// Add `data-preview-link` and `data-preview-link="false"` to customise each link
+				// individually
+				previewLinks: false,
+
+				// Exposes the reveal.js API through window.postMessage
+				postMessage: true,
+
+				// Dispatches all reveal.js events to the parent window through postMessage
+				postMessageEvents: false,
+
+				// Focuses body when page changes visibility to ensure keyboard shortcuts work
+				focusBodyOnPageVisibilityChange: true,
+
+				// Transition style
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Transition speed
+				transitionSpeed: 'default', // default/fast/slow
+
+				// Transition style for full page slide backgrounds
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// The maximum number of pages a single slide can expand onto when printing
+				// to PDF, unlimited by default
+				pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+
+				// Prints each fragment on a separate slide
+				pdfSeparateFragments: true,
+
+				// Offset used to reduce the height of content within exported PDF pages.
+				// This exists to account for environment differences based on how you
+				// print to PDF. CLI printing options, like phantomjs and wkpdf, can end
+				// on precisely the total height of the document whereas in-browser
+				// printing has to end one pixel before.
+				pdfPageHeightOffset: -1,
+
+				// Number of slides away from the current that are visible
+				viewDistance: 3,
+
+				// Number of slides away from the current that are visible on mobile
+				// devices. It is advisable to set this to a lower number than
+				// viewDistance in order to save resources.
+				mobileViewDistance: 2,
+
+				// The display mode that will be used to show slides
+				display: 'block',
+
+				// Hide cursor if inactive
+				hideInactiveCursor: true,
+
+				// Time before the cursor is hidden (in ms)
+				hideCursorTime: 5000,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
+
 	</body>
 </html>

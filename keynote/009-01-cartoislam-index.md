@@ -1,0 +1,33 @@
+### Cartografía islámica
+
+* ¿De qué estamos hablando? ¿Imagen, representación, esquema...?
+* Importancia de la geografía para la religión islámica
+  * 👉 Conocimiento de la **Qiblah**.
+  * 👉 Viajes: peregrinación a La Meca.
+* Influencias de oriente y occidente.
+  * Bizancio 👉 Ptolomeo (Nomenclátor).  Menos influencia que en el Renacimiento
+  * China 👉 Materiales: papel. Brújula.
+  * India 👉 Cúpula de la Tierra. Establecimiento de un meridiano.
+  * Persia 👉 División del mundo. La división en climas griega *καιρός* (Kairós)  👉 *iqlīm*, en plural *aqālīm*
+  * Necesidad de división del territorio: estudio, recaudación de impuestos.
+* Definición de unidades de medida
+  * *Dhirā* (codo) (0.6 metros). *Mīl* (milla) (3000 *dhirā*). El *farsakh* (3 mīl o 5.5 Km).
+  * Un día de viaje era un *marhalah*. Una etapa de viaje, *manzil*.
+  * La navegación de un día es un *majrā*. Tres horas de navegación es un *zām*.
+  * Latitudes y longitudes se miden en grados, minutos, *darajahs* y *daqīqahs*.
+* Cartografía poco estudiada
+  * No han sobrevivido grandes mapas.
+  * 1840: **Jaubert** traduce geografía de **al-Idrisi**.
+  * 1920: **Konrad Miller** publica *Mappae arabicae*.
+  * Clasificación de **Johannes Hendrik Kramer**.
+
+Note:
+
+Al igual que en occidente no existe la palabra mapa como hoy en día. ¿Cómo denominamos entonces a estas representaciones del mundo?. La palabra *surat* significa imagen. El sufijo *-iirah* , dar forma. No son términos que se apliquen exclusivamente al artefacto que hoy llamamos mapa, sino que pueden aplicarse a cualquier tipo de representación visual. La disciplina de la cartografía estaba fuertemente imbricada con otras disciplinas, como religión, administración del territorio, itinerarios. Podemos decir que los mapas se usaban conjuntamente para aclarar o esquematizar lo que expresaba un texto. Una representación visual de algo escrito. La estandarización y la especialización comienzan solo con el período moderno.
+
+El contacto con el imperio bizantino permite la llegada del conocimiento de los trabajos de Ptolomeo. Interesa su nomenclátor. Para comprobar sus medidas de latitud y longitud repiten los experimentos de Eratóstenes para fijar unidades. Pero sorprendentemente no utilizan las herramientas de Ptolomeo para construir proyecciones. De los persas heredan el concepto de la división del mundo habitado en **siete** regiones o *kishvars*. Los árabes asemejan este concepto con el de los climas griegos, que también son siete, sin embargo se hereda con su significado de división. Para los griegos la palabra *καιρός* (Kairós), significa inclinación de los rayos del sol al incidir sobre la tierra. Los musulmanes utilizan la palabra árabe *iqlīm*, en plural *aqālīm*. Los musulmanes utilizan este término para designar la división del territorio. 
+
+La cartografía de origen islámico apenas se estudia hasta el siglo XIX, en donde se empiezan a traducir los trabajos de **al-Idrisi**. A comienzos del siglo XX se empiezan a utilizar para diversos estudios las tablas matemáticas de coordenadas, pero los mapas en sí son poco apreciados por su caracter impreciso. Poco valorados. Los mapas islámicos están muy relacionados con el texto manuscrito en donde se encuentran, y el desconocimiento del idioma lleva a muchos investigadores a no considerarlos.
+
+El interés por la cartografía islámica surge de la mano de *Konrad Miller* en 1920, que publica su compendio de cartografía *Mappae arabicae*. Entre 1926 **Youssouf Kamal** publica *Monumenta cartographica Africae et Aegypti*, que busca referencias africanas en la cartografía. El objeto de esta obra no es la cartografía islámica en sí, pero la utiliza ampliamente, comparándola con cartografías de la misma época.
+
