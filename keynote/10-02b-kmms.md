@@ -1,3 +1,13 @@
+
+
+
+
+
+Notes:
+
+Los mapas KMMS surgen de la necesidad de completar los tratados de geografía con algún tipo de gráfico, diagrama o esquema de caracter cartográfico para ubicar al lector. Estos manuscritos reciben el nombre genérico de *Kitāb al-Masālik wa-al Mamālik* y suelen contener una *Ṣūrat Al-Arḍ* o imagen de la tierra o una *Ṣuwar al-aqālīm* o imagen de los climas. Los funcionarios de la administración del califato abasí, de origen persa, utilizaban estos manuales de geografía para llevar un registros de las etapas de las principales rutas de peregrinación o *Hajj*, para ubicar y conocer las distintas provincias y regiones que tenían que pagar los impuestos religiosos o *zakāh* zakat o a modo de itinerarios para las eficientes rutas de correspondencia que interconectaban todos los territorios tributarios del califato.
+
+
 http://www.bl.uk/manuscripts/Viewer.aspx?ref=io_islamic_1026_fs001r
 
 14th century, Persian adaptation of al-Istakhrī's al-Masālik wa'l-MamālikDecorations:
