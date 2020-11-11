@@ -4,6 +4,7 @@
 * ⏳ Istakhr - Baghdad, ca.952
 * Viajero y geógrafo
 * Miembro de la Escuela Balkhi
+* Autor más versionado. Sobreviven más de 34 manuscritos.
 
 Note:
 

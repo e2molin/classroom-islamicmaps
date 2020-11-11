@@ -56,6 +56,8 @@ Viajero y geógrafo. Se identifica como palestino.
 Aḥsan al-taqāsīm fī maʿrifat al-aqālīm, Las mejores divisiones en el conocimiento de las regiones
 Introduce l color en sus representaciones cartográficas.
 
+> Describimos sólo aquellas tierras del reino del Islam; no nos preocupamos por los países de los incrédulos y no nos parece útil describirlos. Aunque también mencionamos aquellas regiones donde viven los musulmanes.
+
 Abu Rayhan al-Biruni (Kath, 973 - Ghazni, 1050)
 👇
 Físico, geólogo, matemático y astrónomo.
