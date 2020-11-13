@@ -49,10 +49,10 @@ Si no ponemos el .present, hay que añadir !important a la propidad
 }
 
 .sidebarMedium {
-  font-size: 1em;
+  font-size: 1rem;
   display: block;
   position: fixed;
-  width: 220px;
+  width: 25%;
   height: auto;
   z-index: 31;
   left: -200px;
@@ -60,13 +60,13 @@ Si no ponemos el .present, hay que añadir !important a la propidad
   -webkit-user-select: none;
 }
 .sidebarMedium p{
-  font-size: 50%;
+  font-size: 0.65rem;
   text-align: justify;
   text-justify: inter-word;
 }
 
 .sidebarMedium ul li{
-  font-size: 0.40em;
+  font-size: 0.65rem;
 }
 
 
@@ -77,4 +77,18 @@ Si no ponemos el .present, hay que añadir !important a la propidad
 
 .reveal .speaker-notes {
   font-size: 0.5em;
+}
+
+
+.container-slide{
+  display: flex;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: crimson;
+  justify-content: center;
+}
+
+
+.reveal figure figcaption {
+  font-size: 0.70rem;
 }

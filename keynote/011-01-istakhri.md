@@ -14,6 +14,8 @@ La obra original de la que derivan los trabajos de **al-Balkhi** y **al-Istakhr�
 
 A estos textos geográficos con esquemas cartográficos **Konrad Miller** los denomina *Atlas del Islam*, mientras que **Karen Pinto** los denomomina mapas **KMMS** por la  *Kitāb al-Masālik wa-al Mamālik*, a la que añade la letra S por la palabra *Ṣūrat* que significa «imagen» en árabe. Estos compendios de mapas son el prototipo de la escuela cartográfica de Balkhi.
 
+Los estudiosos como Kramers han realizado una clasificación de los textos atendiendo a las características del mapa. Kramers clasifica la obra de Istakhri en dos grupos, istakhri I y istakhri II. En esta clasificación, los primeros son mapas más geométricos que los segundos.
+
 
 #---------#
 
