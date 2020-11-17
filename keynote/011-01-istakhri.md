@@ -67,7 +67,7 @@ Note:
 
 Note:
 
-Los mapas de la ecúmene KMMS se caracterizan por la forma de doble disco o circular o rectangular orientado al sur. El océano circundante *Baḥr al-Muḥīṭ* rodea el mundo conocido que comprende África, Asia y Europa, los cuatro mares y generalmente siete ríos principales. AL rededor del mar circundante se dibujan el *Monte Qāf* está en los confines de la tierra conocida y abarca al mundo. África tiene una característica forma de media Luna con el extremo inferior apuntando al este (parte izquierda). Los mares se dibujan en los mapas medievales islámicos como formas perfectas y suaves sin costas irregulares, como corresponde a su naturaleza divina. Este análisis de los mares en la imaginación cartográfica islámica reafirma la conexión entre la religión y la geografía tan importante separa la cartografía islámica. 
+Los mapas de la ecúmene KMMS se caracterizan por la forma de doble disco o circular o rectangular orientado al sur. El océano circundante *Baḥr al-Muḥīṭ* rodea el mundo conocido que comprende África, Asia y Europa, los cuatro mares y generalmente siete ríos principales. Alrededor del mar circundante se dibujan el *Monte Qāf* está en los confines de la tierra conocida y abarca al mundo. África tiene una característica forma de media Luna con el extremo inferior apuntando al este (parte izquierda). Los mares se dibujan en los mapas medievales islámicos como formas perfectas y suaves sin costas irregulares, como corresponde a su naturaleza divina. Este análisis de los mares en la imaginación cartográfica islámica reafirma la conexión entre la religión y la geografía tan importante separa la cartografía islámica. 
 
 
 #---------#

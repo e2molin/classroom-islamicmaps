@@ -15,15 +15,10 @@ body {
   background-color: #ffffff; }
 
 .reveal {
-  /*font-family: "Signika", "HeiTi SC", "Microsoft YaHei", sans-serif;
-  font-size: 2.4em;
-  font-weight: normal;
-  color: #060606;*/
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5em;
   font-weight: normal;
-  color: #333; 
-
+  color: #333;
 }
 
 ::selection {
@@ -503,5 +498,139 @@ h2.flicker {
     box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.5), inset 0 0 0.5rem rgba(255, 255, 255, 0.5), 0 0 2rem #08f, inset 0 0 2rem #08f, 0 0 4rem #08f, inset 0 0 4rem #08f; }
   20%, 24%, 55% {
     text-shadow: none;
-    box-shadow: none; } }
-	
+    box-shadow: none; } 
+}
+
+
+
+/*
+Con esto añadimos un estilo a la slide intro-islamic cuando está presente
+Si no ponemos el .present, hay que añadir !important a la propidad
+*/
+
+.keynoteLogoDown {
+  display: block;
+  position: fixed;
+  width: 80px;
+  height: 100px;
+  z-index: 0;
+  right: 5px;
+  bottom: 65px;
+  -webkit-user-select: none;
+}
+.keynoteLogoUp {
+  display: block;
+  position: fixed;
+  width: 80px;
+  height: 100px;
+  z-index: 0;
+  left: 5px;
+  top: 5px;
+  -webkit-user-select: none;
+}
+
+.keynoteLogo img {
+  width: 80%;
+}
+.notegraph {
+  color:purple;
+  font-size: 0.80em;
+}
+
+/*
+Mís añadidos
+*/
+
+
+
+.reveal .slides section .fragment.step-fade-in-then-out {
+  opacity: 0;
+  display: none; 
+  top:130px;
+  vertical-align:top;
+}
+.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+  opacity: 1;
+  display: inline; 
+  top:130px;
+  vertical-align:top;
+}
+
+.stack-fragmentos{
+  position:relative;
+}
+.stack-fragmento-elem{
+  position:absolute; 
+  margin-left: auto; 
+  margin-right: auto; 
+  left:0; 
+  right:0;
+}
+/**
+  CSS para modifcar estilos base de Reveal
+*/
+.sidebarRight {
+  font-size: 1em;
+  display: block;
+  position: fixed;
+  width: 220px;
+  height: auto;
+  z-index: 31;
+  left: -200px;
+  bottom: 5px;
+  -webkit-user-select: none;
+}
+.sidebarRight p{
+  font-size: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.sidebarRight ul li{
+  font-size: 0.40em;
+}
+
+.sidebarMedium {
+  font-size: 1rem;
+  display: block;
+  position: fixed;
+  width: 25%;
+  height: auto;
+  z-index: 31;
+  left: -200px;
+  bottom: 20%;
+  -webkit-user-select: none;
+}
+.sidebarMedium p{
+  font-size: 0.65rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.sidebarMedium ul li{
+  font-size: 0.65rem;
+}
+
+
+
+.description ul li {
+  font-size: 0.50em;
+}
+
+.reveal .speaker-notes {
+  font-size: 0.5em;
+}
+
+
+.container-slide{
+  display: flex;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: crimson;
+  justify-content: center;
+}
+
+
+.reveal figure figcaption {
+  font-size: 0.70rem;
+}
