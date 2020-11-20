@@ -1,8 +1,6 @@
-### Cartografía Islámica
-
 #### Características
 
-<div class="l-multiple" style="justify-items:center">
+<div class="l-multiple-6" style="justify-items:center">
   <figure>
     <img class="plain" style="max-height:20vh" data-src="images/islamic-map-balkhi-istakhri-persico.jpg" alt="Non-key areas of image blurred out">
     <figcaption>Ilustrativa</figcaption>
@@ -28,5 +26,9 @@
 </div>
 
 Note:
-							<p>Los mapas no constituyen obras por si solos, forman patrde de compendios geográficos y recopilaciones históricos: itinerarios de rutas comerciales, recopilaciónes de impuestos, libros de peregrinaciones. Los detalles cartográficos se presentan muy simplificados, pero cuya simplificación tiene una utilidad mnemotécnica. Aral al oriente, Caspio al oeste. Al Caspio llegan dos ríos importantes y al Aral sólo uno. Las islas se representan como círculos. Las costas ficguran delineadas con regla y compás. El mundo es imagen de Dios, y Dios es armonía en los trazos, incluso en los accidentes costeros. Una costa sinuosa no puede estar presente en un libro relioso que ensalce la obra del Creador.</p>
-							<p>La caligrafía formal que anotaba los mapas (a menudo en varios idiomas) brindaba mayores oportunidades para combinarse con el estilo fluido de la pluma o el pincel del detalle del mapa, una armonía que a menudo continuaba en los bordes arabescos. Las palabras en caligrafía árabe se pueden estirar o contraer a voluntad para llenar las áreas a las que se refieren. Tal armonía entre línea y letra no era posible con el alfabeto romano. En la inagen se muestra una gran cantidad de topónimos en las costas del golfo Pérsico entres los ríos Tigris e Indo, por supuesto con la correspondiente costa simplificada y estilizada.</p>
+
+Los mapas no constituyen obras por si solos, forman parte de de compendios geográficos y recopilaciones históricos: itinerarios de rutas comerciales, recopilaciónes de impuestos, libros de peregrinaciones. Los detalles cartográficos se presentan muy simplificados, pero cuya simplificación tiene una utilidad mnemotécnica. Aral al oriente, Caspio al oeste. Al Caspio llegan dos ríos importantes y al Aral sólo uno. Las islas se representan como círculos. Las costas figuran delineadas con regla y compás. 
+  
+El mundo es imagen de Dios, y Dios es armonía en los trazos, incluso en los accidentes costeros. Una costa sinuosa no puede estar presente en un libro relioso que ensalce la obra del Creador.
+
+La caligrafía formal que anotaba los mapas (a menudo en varios idiomas) brindaba mayores oportunidades para combinarse con el estilo fluido de la pluma o el pincel del detalle del mapa, una armonía que a menudo continuaba en los bordes arabescos. Las palabras en caligrafía árabe se pueden estirar o contraer a voluntad para llenar las áreas a las que se refieren. Tal armonía entre línea y letra no era posible con el alfabeto romano. En la inagen se muestra una gran cantidad de topónimos en las costas del golfo Pérsico entres los ríos Tigris e Indo, por supuesto con la correspondiente costa simplificada y estilizada.

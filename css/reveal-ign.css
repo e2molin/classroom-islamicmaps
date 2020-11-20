@@ -100,7 +100,7 @@ body {
 */
 
 .reveal ul li {
-  font-size: 0.8em;
+  font-size: 1.0rem;
 }
 
 
@@ -308,8 +308,22 @@ html {
   box-sizing: inherit; }
 
 .reveal .l-multiple {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-around; }
+
+.reveal .l-multiple-6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around; 
+}
+
+.reveal .l-multiple-8 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around; 
+}
+
 
 .reveal .l-simple {
     display: grid;
@@ -317,14 +331,25 @@ html {
 
 .reveal .l-double {
   display: grid;
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items:center;
+
+}
 
 .reveal .l-TwoThree {
-    display: flex;
-    grid-template-columns: 50% 50%;
+    display: grid;
+    grid-template-columns: 40% 60%;
     align-items: center;
     justify-items:center;
   }
+
+.reveal .l-ThreeTwo {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  justify-items:center;
+}
 
 .reveal .j-icon {
   display: inline-block;
@@ -509,6 +534,9 @@ h2.flicker {
  * 
  */
 
+ .reveal 
+
+
 .reveal .slides section .fragment.step-fade-in-then-out {
   opacity: 0;
   display: none; 
@@ -595,8 +623,6 @@ h2.flicker {
 .sidebarTop ul li{
   font-size: 0.65rem;
 }
-
-
 
 .description ul li {
   font-size: 0.50em;

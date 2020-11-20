@@ -29,18 +29,18 @@ Note:
 
 * 750-945/1258: *Califato de los Abasíes*. Suní. Capital Bagdad.
 	* 945: los buyidas (chiítas) toman Bagdad.
-  * 997: Mahmūd, primer sultán. Imperio gaznávida (Afganistán).
-  * 1037: muerte del pensador **Ibn Sina** (Avicena). Sultanato Selyúcida.
-  * 1077-1299: Sultanato del Rüm, hoy Turquía. Origen turcomongol.
-  * 1198: muerte del filósofo Ibn Rouchd (Averroes).
-  * 1258: destrucción de Bagdad por los mongoles.
+	* 997: Mahmūd, primer sultán. Imperio gaznávida (Afganistán).
+	* 1037: muerte del pensador **Ibn Sina** (Avicena). Sultanato Selyúcida.
+	* 1077-1299: Sultanato del Rüm, hoy Turquía. Origen turcomongol.
+	* 1198: muerte del filósofo Ibn Rouchd (Averroes).
+	* 1258: destrucción de Bagdad por los mongoles.
 * 909–1171: *Califato fatimí*. Chií. Capital Cairuán (Túnez) y El Cairo.
-  * 1171-1250: Salah-Al-Din lo derrota 👉 Dinastía ayubí (kurdos).
+	* 1171-1250: Salah-Al-Din lo derrota 👉 Dinastía ayubí (kurdos).
 * 1250–1517: *Sultanato mameluco de Egipto*.
-  * Heredero de la Dinastía ayubí
-  * Califas sometidos a los sultanes.
+	* Heredero de la Dinastía ayubí
+	* Califas sometidos a los sultanes.
 * 1290-1923: *Imperio turco otomano*.
-  * Imperio multiétnico. Turcos del Sultanato del Rüm.
+	* Imperio multiétnico. Turcos del Sultanato del Rüm.
 	* 1453: Caída de Constantinopla.
 	* 1517: Selim I, sultán se proclama califa 👉 **Califato otomano**.
 
@@ -49,7 +49,7 @@ Note:
 
 Los abasíes toman su nombre de **Abbás**, uno de los tíos más jóvenes de Mahoma. Descendientes del clan **Banu Hashim**. Tras el ascenso Omeya, esta familia se estableció en Persia, en donde ascendieron gracias a varias victorias militares. Critican la degradación moral del califato de los Omeya, con el apoyo de los *mawali* (conversos al Islam no árabes) sobre todo de origen persa, inician una revuelta que culmina con el asesinato del califa omeya **Marwan II**. Toda la dinastía Omeya ese asesinada, a excepción del príncipe **Abd al-Rahmán I**, que huye a la provincia de *al-Ándalus* fundando el Emirato de Córdoba, independiente del Califato abasí. **As-Saffah** (👑750-754) se convierte en el primer califa abasí, y establece la capital en **Kufa**, alejándola de Damasco.
 
-Le sucede su hermano **Al-Mansur** (👑754-775), que traslada la capital a Bagdad. Apoyan la entrada de funcionarios *mawali* en el aparato administrativo del calidfato, herederos de la eficaz administración persa de los tiempos del imperio sasánida.s
+Le sucede su hermano **Al-Mansur** (👑754-775), que traslada la capital a Bagdad. Apoyan la entrada de funcionarios *mawali* en el aparato administrativo del calidfato, herederos de la eficaz administración persa de los tiempos del imperio sasánida.
 
 <p>Rangos nobiliarios musulmanes:
 	<ul>
