@@ -40,6 +40,14 @@ https://www.aramcoworld.com/Articles/November-2019/Messages-in-the-Maps
 https://www.academia.edu/1153023/Surat_Bahr_al_Rum_Picture_of_the_Sea_of_Byzantium_Possible_Meanings_Underlying_the_Forms
 
 
+## Bibliografía 
+
+* 2009 - Cartography in Islamic Societies, S. Brentjes - [enlace](https://www.academia.edu/625019/Cartography_in_Islamic_Societies)
+
+* 1979 - La escuela cartográfica de Balkhi - Gerald R. Tibbets - [enlace](https://press.uchicago.edu/books/HOC/HOC_V2_B1/HOC_VOLUME2_Book1_chapter5.pdf)
+
+
+
 ## Reveal.JS Documentation
 
 reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
