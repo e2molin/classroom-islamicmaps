@@ -9,6 +9,10 @@
   <br/><br/>
 </p>
 
+### Piri Reis
+
+https://abcblogs.abc.es/espejo-de-navegantes/otros-temas/las-cartas-perdidas-de-piri-reis.html
+https://publicdomainreview.org/collection/the-maps-of-piri-reis
 
 ### Documento cartográfico 1
 
@@ -38,7 +42,7 @@ https://muslimheritage.com/unpublished-arabic-geography/
 https://histoireislamique.wordpress.com/2014/05/05/carte-du-monde-faite-par-les-geographes-abbasside-du-calife-al-mamun-813-833/
 https://www.aramcoworld.com/Articles/November-2019/Messages-in-the-Maps
 https://www.academia.edu/1153023/Surat_Bahr_al_Rum_Picture_of_the_Sea_of_Byzantium_Possible_Meanings_Underlying_the_Forms
-
+https://www.trtworld.com/magazine/piri-reis-admiral-extraordinaire-the-champion-of-ottoman-cartography-42239?fbclid=IwAR2uhjgUx77-r6PaDZsX6W4AqLcKLSCeFiGclS9BiTpjsexJv0DeNccGfrw
 
 ## Bibliografía 
 
