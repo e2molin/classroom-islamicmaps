@@ -44,6 +44,7 @@ https://www.aramcoworld.com/Articles/November-2019/Messages-in-the-Maps
 https://www.academia.edu/1153023/Surat_Bahr_al_Rum_Picture_of_the_Sea_of_Byzantium_Possible_Meanings_Underlying_the_Forms
 https://www.trtworld.com/magazine/piri-reis-admiral-extraordinaire-the-champion-of-ottoman-cartography-42239?fbclid=IwAR2uhjgUx77-r6PaDZsX6W4AqLcKLSCeFiGclS9BiTpjsexJv0DeNccGfrw
 http://alfarabinur.kz/arabskie-strany/akhmad-ibn-madzhid-kniga-poleznykh-dannykh-ob-osnovakh-morskojj-nauki-i-ee-pravilakh.html
+https://russia-islworld.ru/en/kultura//upside-down-maps-battle-animation-or-how-muslims-changed-the-topography/
 
 ## Bibliografía 
 
